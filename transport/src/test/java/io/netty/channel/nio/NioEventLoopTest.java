@@ -75,6 +75,24 @@ public class NioEventLoopTest extends AbstractEventLoopTest {
     }
 
     @Test
+    public void testShutdownFromTaskClosesRegisteredChannel() throws Exception {
+        EventLoopGroup group = new MultiThreadIoEventLoopGroup(1, NioIoHandler.newFactory());
+        try (SocketChannel socket = SocketChannel.open()) {
+            Channel channel = new NioSocketChannel(socket);
+            assertTrue(group.register(channel).await(5, TimeUnit.SECONDS));
+            assertTrue(channel.isRegistered());
+            channel.eventLoop().submit(() -> group.shutdownGracefully(0, 5, TimeUnit.SECONDS))
+                    .get(5, TimeUnit.SECONDS);
+            assertTrue(group.terminationFuture().await(10, TimeUnit.SECONDS));
+            assertFalse(channel.isOpen(), "Shutdown must close a channel registered before the task phase");
+            assertTrue(channel.closeFuture().isDone());
+            assertFalse(channel.isRegistered());
+        } finally {
+            assertTrue(group.shutdownGracefully(0, 5, TimeUnit.SECONDS).await(10, TimeUnit.SECONDS));
+        }
+    }
+
+    @Test
     public void testRebuildSelector() {
         EventLoopGroup group = new NioEventLoopGroup(1);
         final NioEventLoop loop = (NioEventLoop) group.next();
