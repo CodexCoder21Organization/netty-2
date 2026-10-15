@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: io.netty.channel.socket.nio.NioDatagramChannelTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.216 s -- in io.netty.channel.socket.nio.NioDatagramChannelTest

@@ -1,0 +1,124 @@
+Picked up JAVA_TOOL_OPTIONS: -Xmx2g
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Detecting the operating system and CPU architecture
+[INFO] ------------------------------------------------------------------------
+[INFO] os.detected.name: linux
+[INFO] os.detected.arch: x86_64
+[INFO] os.detected.bitness: 64
+[INFO] os.detected.version: 6.8
+[INFO] os.detected.version.major: 6
+[INFO] os.detected.version.minor: 8
+[INFO] os.detected.release: debian
+[INFO] os.detected.release.version: 12
+[INFO] os.detected.release.like.debian: true
+[INFO] os.detected.classifier: linux-x86_64
+[INFO] 
+[INFO] ----------------------< io.netty:netty-transport >----------------------
+[INFO] Building Netty/Transport 4.2.20.Final-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- surefire:3.5.6:test (default-cli) @ netty-transport ---
+[INFO] Tests will run in random order. To reproduce ordering use flag -Dsurefire.runOrder.random.seed=2184517910674838
+[INFO] Using auto detected provider org.apache.maven.surefire.junitplatform.JUnitPlatformProvider
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+Picked up JAVA_TOOL_OPTIONS: -Xmx2g
+[INFO] Running io.netty.channel.nio.NioShutdownReentryTest
+12:42:20.593 [multiThreadIoEventLoopGroup-2-1] WARN  io.netty.channel.AbstractChannel - Can't invoke task later as EventLoop rejected it
+java.util.concurrent.RejectedExecutionException: event executor terminated
+	at io.netty.util.concurrent.SingleThreadEventExecutor.reject(SingleThreadEventExecutor.java:1137)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.offerTask(SingleThreadEventExecutor.java:413)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.addTask(SingleThreadEventExecutor.java:406)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.execute(SingleThreadEventExecutor.java:1039)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.execute0(SingleThreadEventExecutor.java:1002)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.execute(SingleThreadEventExecutor.java:992)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.invokeLater(AbstractChannel.java:887)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.deregister(AbstractChannel.java:667)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.fireChannelInactiveAndDeregister(AbstractChannel.java:627)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.close(AbstractChannel.java:610)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.close(AbstractChannel.java:489)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.close(AbstractNioChannel.java:251)
+	at io.netty.channel.nio.NioIoHandler$DefaultNioRegistration.close(NioIoHandler.java:378)
+	at io.netty.channel.nio.NioIoHandler.prepareToDestroy(NioIoHandler.java:610)
+	at io.netty.channel.SingleThreadIoEventLoop.confirmShutdown(SingleThreadIoEventLoop.java:238)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1293)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+12:42:20.821 [multiThreadIoEventLoopGroup-4-1] WARN  io.netty.channel.AbstractChannel - Can't invoke task later as EventLoop rejected it
+java.util.concurrent.RejectedExecutionException: event executor terminated
+	at io.netty.util.concurrent.SingleThreadEventExecutor.reject(SingleThreadEventExecutor.java:1137)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.offerTask(SingleThreadEventExecutor.java:413)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.addTask(SingleThreadEventExecutor.java:406)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.execute(SingleThreadEventExecutor.java:1039)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.execute0(SingleThreadEventExecutor.java:1002)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.execute(SingleThreadEventExecutor.java:992)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.invokeLater(AbstractChannel.java:887)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.deregister(AbstractChannel.java:667)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.fireChannelInactiveAndDeregister(AbstractChannel.java:627)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.close(AbstractChannel.java:610)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.close(AbstractChannel.java:489)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.close(AbstractNioChannel.java:251)
+	at io.netty.channel.nio.NioIoHandler$DefaultNioRegistration.close(NioIoHandler.java:378)
+	at io.netty.channel.nio.NioIoHandler.prepareToDestroy(NioIoHandler.java:610)
+	at io.netty.channel.SingleThreadIoEventLoop.confirmShutdown(SingleThreadIoEventLoop.java:238)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1293)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+[ERROR] Tests run: 3, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 1.591 s <<< FAILURE! -- in io.netty.channel.nio.NioShutdownReentryTest
+[ERROR] io.netty.channel.nio.NioShutdownReentryTest.closeListenersRegisteringMoreChannelsCannotLeaveAcceptedChannelsOpen -- Time elapsed: 0.583 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: A channel accepted during shutdown must close before termination ==> expected: <false> but was: <true>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertFalse.failNotFalse(AssertFalse.java:63)
+	at org.junit.jupiter.api.AssertFalse.assertFalse(AssertFalse.java:36)
+	at org.junit.jupiter.api.Assertions.assertFalse(Assertions.java:239)
+	at io.netty.channel.nio.NioShutdownReentryTest.closeListenersRegisteringMoreChannelsCannotLeaveAcceptedChannelsOpen(NioShutdownReentryTest.java:64)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+[ERROR] io.netty.channel.nio.NioShutdownReentryTest.unregisterCallbacksRegisteringMoreChannelsCannotLeaveRegistrationsBehind -- Time elapsed: 0.042 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: Termination must drain callback-created channel deregistration ==> expected: <false> but was: <true>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertFalse.failNotFalse(AssertFalse.java:63)
+	at org.junit.jupiter.api.AssertFalse.assertFalse(AssertFalse.java:36)
+	at org.junit.jupiter.api.Assertions.assertFalse(Assertions.java:239)
+	at io.netty.channel.nio.NioShutdownReentryTest.unregisterCallbacksRegisteringMoreChannelsCannotLeaveRegistrationsBehind(NioShutdownReentryTest.java:111)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+[INFO] 
+[INFO] Results:
+[INFO] 
+[ERROR] Failures: 
+[ERROR]   NioShutdownReentryTest.closeListenersRegisteringMoreChannelsCannotLeaveAcceptedChannelsOpen:64 A channel accepted during shutdown must close before termination ==> expected: <false> but was: <true>
+[ERROR]   NioShutdownReentryTest.unregisterCallbacksRegisteringMoreChannelsCannotLeaveRegistrationsBehind:111 Termination must drain callback-created channel deregistration ==> expected: <false> but was: <true>
+[INFO] 
+[ERROR] Tests run: 3, Failures: 2, Errors: 0, Skipped: 0
+[INFO] 
+[WARNING] Corrupted channel by directly writing to native stream in forked JVM 1. See FAQ web page and the dump file /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane227/netty-2/transport/target/surefire-reports/2026-10-15T12-42-15_884-jvmRun1.dumpstream
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  17.780 s
+[INFO] Finished at: 2026-10-15T12:42:21Z
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-surefire-plugin:3.5.6:test (default-cli) on project netty-transport: There are test failures.
+[ERROR] 
+[ERROR] See /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane227/netty-2/transport/target/surefire-reports for the individual test results.
+[ERROR] See dump files (if any exist) [date].dump, [date]-jvmRun[N].dump and [date].dumpstream.
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException

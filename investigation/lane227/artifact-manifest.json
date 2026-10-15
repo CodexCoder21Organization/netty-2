@@ -1,0 +1,1252 @@
+[
+  {
+    "path": "FINDINGS.md",
+    "bytes": 12542,
+    "sha256": "e0af18ba2aa312254cd6a71229ba31f9e4eba8f04313e74ab2277d22bf0211fa"
+  },
+  {
+    "path": "RERUN.md",
+    "bytes": 2868,
+    "sha256": "85a5b2bbc740ca59ad20524e5bed12dfe4efaa7cd6cbdb1b76c42e0a42ccd0cc"
+  },
+  {
+    "path": "baseline-1-reports/2026-10-15T12-41-49_181-jvmRun1.dumpstream",
+    "bytes": 7714,
+    "sha256": "7442122a334389374e7590bab6104aa2c332e1164573ffc0aee504aba1ca203e"
+  },
+  {
+    "path": "baseline-1-reports/TEST-io.netty.channel.nio.NioShutdownReentryTest.xml",
+    "bytes": 20450,
+    "sha256": "a7d84f9e042d74c917e7992d7979f08f18932f8884aa2c57b096768473a2a51f"
+  },
+  {
+    "path": "baseline-1-reports/io.netty.channel.nio.NioShutdownReentryTest.txt",
+    "bytes": 2418,
+    "sha256": "926dd1e54ac53348e7b1e47bd34c0f51c3bcb5a13a031edafeaf61ed6a7492db"
+  },
+  {
+    "path": "baseline-1.log",
+    "bytes": 45890,
+    "sha256": "0b06bca0b9f8d95173aa4496a66945153278b85c5790c3fa89cb1ae822291d00"
+  },
+  {
+    "path": "baseline-2-reports/2026-10-15T12-42-15_884-jvmRun1.dumpstream",
+    "bytes": 7715,
+    "sha256": "24316781353247a6df5c89c45acae9477ff881a89627c30494f2ade19df40080"
+  },
+  {
+    "path": "baseline-2-reports/TEST-io.netty.channel.nio.NioShutdownReentryTest.xml",
+    "bytes": 20450,
+    "sha256": "87fcb63fdd861510c78853b857fc6443e4675e46aab58fb310e8b39c4208c5eb"
+  },
+  {
+    "path": "baseline-2-reports/io.netty.channel.nio.NioShutdownReentryTest.txt",
+    "bytes": 2418,
+    "sha256": "5bdbea962d228d1ceaacb009966d298043e61a3d0c74d59d8ce8f30fb418f518"
+  },
+  {
+    "path": "baseline-2.log",
+    "bytes": 9543,
+    "sha256": "8b6d0741a88c81ff2a9f953fc37dabca6a84ea220d463e5e7dff5716d9d8e395"
+  },
+  {
+    "path": "baseline-3-reports/2026-10-15T12-42-37_755-jvmRun1.dumpstream",
+    "bytes": 7714,
+    "sha256": "57330ed4bd8143a97f8b425200541efa1292467ddf127092b400354b8b132e65"
+  },
+  {
+    "path": "baseline-3-reports/TEST-io.netty.channel.nio.NioShutdownReentryTest.xml",
+    "bytes": 20450,
+    "sha256": "b8a2efed7f34b3b73db6f6057d062927238b354fb655f75d68b084dacc36e8ae"
+  },
+  {
+    "path": "baseline-3-reports/io.netty.channel.nio.NioShutdownReentryTest.txt",
+    "bytes": 2418,
+    "sha256": "d066b76e1d8046997c00d2039a4767bbda5c8fe2947aabe2ca2ffd23ee7ea215"
+  },
+  {
+    "path": "baseline-3.log",
+    "bytes": 9543,
+    "sha256": "483a385d0cf617b7968d865e8ecbc4d222ad981848f9efb5c4e8039b502bb7cc"
+  },
+  {
+    "path": "baseline-results.json",
+    "bytes": 339,
+    "sha256": "68902685c1e6f6dbf62b27cf0d145251c4131b46d972dfe4de02f494393b9ec9"
+  },
+  {
+    "path": "baseline-terminal-1-reports/2026-10-15T12-52-41_590-jvmRun1.dumpstream",
+    "bytes": 7715,
+    "sha256": "4194ceeb777b86bc027ea3c4e4583f3bda766d51465ebf748572d012f4c038b7"
+  },
+  {
+    "path": "baseline-terminal-1-reports/TEST-io.netty.channel.nio.NioShutdownReentryTest.xml",
+    "bytes": 33262,
+    "sha256": "c9ea71286191b3bba8df4f067e45bfae3dc2206f41ab9e12598141078a3048e1"
+  },
+  {
+    "path": "baseline-terminal-1-reports/io.netty.channel.nio.NioShutdownReentryTest.txt",
+    "bytes": 3393,
+    "sha256": "c73ebf5daaaee92a9dff4fa9844eebd2af4a072d14b71946605a39e3775e405d"
+  },
+  {
+    "path": "baseline-terminal-1.log",
+    "bytes": 74910,
+    "sha256": "ca5d34743b9ac171d58eda3efd454f4ad6606d77d5c1a51bcbd488a99dc628ff"
+  },
+  {
+    "path": "baseline-terminal-results.json",
+    "bytes": 115,
+    "sha256": "0c953c2e92a2789e33c28b0c12ca049cd737067bf6c5ea2481e0a63081cfae8d"
+  },
+  {
+    "path": "final-fixed-1-reports/2026-10-15T12-48-24_375-jvmRun1.dumpstream",
+    "bytes": 7712,
+    "sha256": "4dbc6962b46d3cbc6b21fe2c7dae68bde01d4e65014350b221efd16669234e4d"
+  },
+  {
+    "path": "final-fixed-1-reports/TEST-io.netty.channel.nio.NioEventLoopTest.xml",
+    "bytes": 14341,
+    "sha256": "7cc2af7e056ee0af49e7206bfdc272dfa1bbbcd4df083205279e03c49e78067b"
+  },
+  {
+    "path": "final-fixed-1-reports/TEST-io.netty.channel.nio.NioShutdownReentryTest.xml",
+    "bytes": 14422,
+    "sha256": "a25a3badda30e17cc5337abf6d1c360dd2e5d692413e9e5cc2451588deab0234"
+  },
+  {
+    "path": "final-fixed-1-reports/io.netty.channel.nio.NioEventLoopTest.txt",
+    "bytes": 324,
+    "sha256": "825d36e2d3a3fd080d3b106c81c655ba043a2b3a6caa6a8cd5e71e767a848bce"
+  },
+  {
+    "path": "final-fixed-1-reports/io.netty.channel.nio.NioShutdownReentryTest.txt",
+    "bytes": 336,
+    "sha256": "c327236e8ffe7a419932c1a42b58712ef3068ec9cd46f846c49a7667f09ade84"
+  },
+  {
+    "path": "final-fixed-1.log",
+    "bytes": 34600,
+    "sha256": "36bf6433a11c1fb520348383d7ff82f258d5bec4a7483b8d0f53043a34db3c53"
+  },
+  {
+    "path": "final-fixed-10-reports/2026-10-15T12-51-17_382-jvmRun1.dumpstream",
+    "bytes": 7713,
+    "sha256": "510e78ddefa0881bd60bad45406beeb5ca7a118d789c0f75c115917a9df17697"
+  },
+  {
+    "path": "final-fixed-10-reports/TEST-io.netty.channel.nio.NioEventLoopTest.xml",
+    "bytes": 14341,
+    "sha256": "996f46aeb0cda7e87f4612a41459552b7bbf5ad81d13c54f620fa4277c781e88"
+  },
+  {
+    "path": "final-fixed-10-reports/TEST-io.netty.channel.nio.NioShutdownReentryTest.xml",
+    "bytes": 14422,
+    "sha256": "69ac0fa75cb80a29cf815ccca267caf5ff8f8aaa1ac1175cc976e0a9307da6e9"
+  },
+  {
+    "path": "final-fixed-10-reports/io.netty.channel.nio.NioEventLoopTest.txt",
+    "bytes": 324,
+    "sha256": "d299e6980158b44059c917061a2b7aac4376bc9fc5613866c21e39a3e0a94f18"
+  },
+  {
+    "path": "final-fixed-10-reports/io.netty.channel.nio.NioShutdownReentryTest.txt",
+    "bytes": 336,
+    "sha256": "b365e5d3a96e227b1e0a4f59d6906342dd94e21cbe4d9b1cc394b4aee85944e7"
+  },
+  {
+    "path": "final-fixed-10.log",
+    "bytes": 2454,
+    "sha256": "eaf344adc42c50c779a0e4ddfe4c87ec73daa43f1db4822111b92c5c8ba7e2ef"
+  },
+  {
+    "path": "final-fixed-2-reports/2026-10-15T12-48-34_759-jvmRun1.dumpstream",
+    "bytes": 7711,
+    "sha256": "59a83df7eb1b4797fc2d0068a0f008681bcb8233a019b5ace32be891bc02d2ab"
+  },
+  {
+    "path": "final-fixed-2-reports/TEST-io.netty.channel.nio.NioEventLoopTest.xml",
+    "bytes": 14340,
+    "sha256": "5bc1fbf3002ecfb999a3f5d56108ac37f5187bef35af7ef6adde191f893b6710"
+  },
+  {
+    "path": "final-fixed-2-reports/TEST-io.netty.channel.nio.NioShutdownReentryTest.xml",
+    "bytes": 14421,
+    "sha256": "30f02cf0dbd71f2acbdd74b146ec809e112ab446191f4bf3748552062f12f631"
+  },
+  {
+    "path": "final-fixed-2-reports/io.netty.channel.nio.NioEventLoopTest.txt",
+    "bytes": 324,
+    "sha256": "121b209c3136f8617c097987a881180d395d06258e72ecea087b295fe24fd7ba"
+  },
+  {
+    "path": "final-fixed-2-reports/io.netty.channel.nio.NioShutdownReentryTest.txt",
+    "bytes": 336,
+    "sha256": "be3069da7f737f49e6975305f6c9e20928b3561723145b83a822b0cae297e308"
+  },
+  {
+    "path": "final-fixed-2.log",
+    "bytes": 2453,
+    "sha256": "c7c9fb33d9cf8730e0928bb2e8ae6f800112cf60f795c0d4a382cab5cf219d86"
+  },
+  {
+    "path": "final-fixed-3-reports/2026-10-15T12-48-46_676-jvmRun1.dumpstream",
+    "bytes": 7713,
+    "sha256": "85b7edfb0a0c3fdb817a51875f53e7348e7e71cb50577e57b86c67b2b0a644a7"
+  },
+  {
+    "path": "final-fixed-3-reports/TEST-io.netty.channel.nio.NioEventLoopTest.xml",
+    "bytes": 14341,
+    "sha256": "5ef0570f6179744f1c794c46e1df8f565d8f473bad39396defa69c187cdf5e7f"
+  },
+  {
+    "path": "final-fixed-3-reports/TEST-io.netty.channel.nio.NioShutdownReentryTest.xml",
+    "bytes": 14422,
+    "sha256": "a46ecb120037e61f66c01322cf8827b2db5a53e7a655ea780831d33eebe225b1"
+  },
+  {
+    "path": "final-fixed-3-reports/io.netty.channel.nio.NioEventLoopTest.txt",
+    "bytes": 324,
+    "sha256": "216009cc4a199510ffecda9927a76f4c471da9e277931ddb95d56a6212e918b6"
+  },
+  {
+    "path": "final-fixed-3-reports/io.netty.channel.nio.NioShutdownReentryTest.txt",
+    "bytes": 336,
+    "sha256": "cc47d67eff54b32e094c0baea703b1a3d6956dbecc7828b339a6c05d7ece27fe"
+  },
+  {
+    "path": "final-fixed-3.log",
+    "bytes": 2453,
+    "sha256": "caf632af05386b506d5b53764d71ffe2bacf276f0127cdcd6388e0727a0f46a7"
+  },
+  {
+    "path": "final-fixed-4-reports/2026-10-15T12-49-06_550-jvmRun1.dumpstream",
+    "bytes": 7713,
+    "sha256": "3a635e061bf459c63b1c2aaf432ee743b8d45e5041b6c394d553b6e5a642aab9"
+  },
+  {
+    "path": "final-fixed-4-reports/TEST-io.netty.channel.nio.NioEventLoopTest.xml",
+    "bytes": 14341,
+    "sha256": "0530f27391f529506978191727abd5fe82d2acd7f99112dea4e9b89d83ddda0a"
+  },
+  {
+    "path": "final-fixed-4-reports/TEST-io.netty.channel.nio.NioShutdownReentryTest.xml",
+    "bytes": 14422,
+    "sha256": "e8af7873fe3d34bbe0a69a124f974b7d1e9696a70605f6deef652bec86080880"
+  },
+  {
+    "path": "final-fixed-4-reports/io.netty.channel.nio.NioEventLoopTest.txt",
+    "bytes": 324,
+    "sha256": "f37fb41e335138fc8921b583dae995755f7820e1522e62f2206a89319bb4809d"
+  },
+  {
+    "path": "final-fixed-4-reports/io.netty.channel.nio.NioShutdownReentryTest.txt",
+    "bytes": 336,
+    "sha256": "cf60295964dad62917defe43537f283f74df36a768f25c26fe824b66ac27f799"
+  },
+  {
+    "path": "final-fixed-4.log",
+    "bytes": 2454,
+    "sha256": "053704412e589d8b51ad987d45f9abcde750f07c3ebb22ba10f72a8f75c6c19e"
+  },
+  {
+    "path": "final-fixed-5-reports/2026-10-15T12-49-22_713-jvmRun1.dumpstream",
+    "bytes": 7713,
+    "sha256": "e9773fad2d543e8765fdf21435072cbbf7a16cee7a45427f7f4b4dfbc4224a8f"
+  },
+  {
+    "path": "final-fixed-5-reports/TEST-io.netty.channel.nio.NioEventLoopTest.xml",
+    "bytes": 14341,
+    "sha256": "528117036b4bef1a3c49d87667522c690a3146612f9de1866ed3d1078b859320"
+  },
+  {
+    "path": "final-fixed-5-reports/TEST-io.netty.channel.nio.NioShutdownReentryTest.xml",
+    "bytes": 14422,
+    "sha256": "90d27cddceb33908d6c3c6bfdc83ba0ff22fbbcd20d1df6a2a44aa4638b5fc6b"
+  },
+  {
+    "path": "final-fixed-5-reports/io.netty.channel.nio.NioEventLoopTest.txt",
+    "bytes": 324,
+    "sha256": "a5898f34f12bea2c907472c670fd320cbfb849988c91a4875b751a6a20f8f1a4"
+  },
+  {
+    "path": "final-fixed-5-reports/io.netty.channel.nio.NioShutdownReentryTest.txt",
+    "bytes": 336,
+    "sha256": "d0e4058a9bf736a294055ae67d9ce4349539cabcd2532f13ef7d3d8131910039"
+  },
+  {
+    "path": "final-fixed-5.log",
+    "bytes": 2454,
+    "sha256": "4c3f89524867bb71cbe17e9289c59bf3099543fa1fc7b0cf7817131fbe1d4906"
+  },
+  {
+    "path": "final-fixed-6-reports/2026-10-15T12-49-46_000-jvmRun1.dumpstream",
+    "bytes": 7713,
+    "sha256": "b3f4b013624fe8dd6932c556da90e5de4242604fc8efa5002d5a27bc95c2030f"
+  },
+  {
+    "path": "final-fixed-6-reports/TEST-io.netty.channel.nio.NioEventLoopTest.xml",
+    "bytes": 14341,
+    "sha256": "2499585a6ded0f87f4b4d6a9ccc5124daceb7d91b3061058147564e1200e2318"
+  },
+  {
+    "path": "final-fixed-6-reports/TEST-io.netty.channel.nio.NioShutdownReentryTest.xml",
+    "bytes": 14422,
+    "sha256": "294f104471c611396443f5df54b57f9b0f5eb14f1aa4e8a989368c5b6738f31f"
+  },
+  {
+    "path": "final-fixed-6-reports/io.netty.channel.nio.NioEventLoopTest.txt",
+    "bytes": 324,
+    "sha256": "b0556eb56e087611a7c0d658884e13c4f4517560f85d7cabebbda9e3d20c3574"
+  },
+  {
+    "path": "final-fixed-6-reports/io.netty.channel.nio.NioShutdownReentryTest.txt",
+    "bytes": 336,
+    "sha256": "90b99263f28e1d8f0b8bc1f6be9d868cacdbd14371cac2c76db382189b715b33"
+  },
+  {
+    "path": "final-fixed-6.log",
+    "bytes": 2454,
+    "sha256": "896fec1d621d75634c3799b2b09828bee79674364911c0b7f690b0a49a9c4d6f"
+  },
+  {
+    "path": "final-fixed-7-reports/2026-10-15T12-50-09_768-jvmRun1.dumpstream",
+    "bytes": 7713,
+    "sha256": "8b92b173aae44ef607daa24c2e86b6fee2e6b634a3308e303d16ef1eaf2fb4b4"
+  },
+  {
+    "path": "final-fixed-7-reports/TEST-io.netty.channel.nio.NioEventLoopTest.xml",
+    "bytes": 14341,
+    "sha256": "b9db70d08014da44d01340d5a73dc5539fdf5341450c538083aa9810551f4148"
+  },
+  {
+    "path": "final-fixed-7-reports/TEST-io.netty.channel.nio.NioShutdownReentryTest.xml",
+    "bytes": 14422,
+    "sha256": "9c5d6948ec9d0cc9d1bba4c1d7342d0a98bea0eafec046ead11affc8cd40593c"
+  },
+  {
+    "path": "final-fixed-7-reports/io.netty.channel.nio.NioEventLoopTest.txt",
+    "bytes": 324,
+    "sha256": "a5898f34f12bea2c907472c670fd320cbfb849988c91a4875b751a6a20f8f1a4"
+  },
+  {
+    "path": "final-fixed-7-reports/io.netty.channel.nio.NioShutdownReentryTest.txt",
+    "bytes": 336,
+    "sha256": "4776906f5b4ee903f31c9df0af7689eb9a09578335eabd0e062d9d01e239b6c3"
+  },
+  {
+    "path": "final-fixed-7.log",
+    "bytes": 2454,
+    "sha256": "c29c1cecae17bccc82d63c1fa03d13253a1397a19bacd457e6ef4aa3e0f182da"
+  },
+  {
+    "path": "final-fixed-8-reports/2026-10-15T12-50-34_390-jvmRun1.dumpstream",
+    "bytes": 7713,
+    "sha256": "c85b0fae824185129574008cacc4959dcd9b3a6a775647164de95c40d3ea183b"
+  },
+  {
+    "path": "final-fixed-8-reports/TEST-io.netty.channel.nio.NioEventLoopTest.xml",
+    "bytes": 14337,
+    "sha256": "79de56bea7f80361fd4e577553f1c29b2282b5c4509ec9c1bc5c21afd9f57dc2"
+  },
+  {
+    "path": "final-fixed-8-reports/TEST-io.netty.channel.nio.NioShutdownReentryTest.xml",
+    "bytes": 14422,
+    "sha256": "3d9ea188768bba38793a1198de8c2bb58a14bb3fa786b6d0c565bc6df070c828"
+  },
+  {
+    "path": "final-fixed-8-reports/io.netty.channel.nio.NioEventLoopTest.txt",
+    "bytes": 324,
+    "sha256": "69630f1d131c3606563c03c09e019a5f15254b864f21b8eeb658c658cd343bf0"
+  },
+  {
+    "path": "final-fixed-8-reports/io.netty.channel.nio.NioShutdownReentryTest.txt",
+    "bytes": 336,
+    "sha256": "b1fa81875796234fcc64211320171cd4e463f8d30ec7a4fcdf2412135ab4829c"
+  },
+  {
+    "path": "final-fixed-8.log",
+    "bytes": 2454,
+    "sha256": "927546e2ae4c98b37d78fb67b90902327338e2fdfbd05ec4ea95a1c0f7352e09"
+  },
+  {
+    "path": "final-fixed-9-reports/2026-10-15T12-50-57_852-jvmRun1.dumpstream",
+    "bytes": 7713,
+    "sha256": "d6d48807c45b09e3c4215a8fc2e72cadf885a18b4245adc2cb042571daadb1b0"
+  },
+  {
+    "path": "final-fixed-9-reports/TEST-io.netty.channel.nio.NioEventLoopTest.xml",
+    "bytes": 14339,
+    "sha256": "f2d7ff872eea78ed7c7cb39109b674aa17f69901e9e559d924dfb4d007ee5a78"
+  },
+  {
+    "path": "final-fixed-9-reports/TEST-io.netty.channel.nio.NioShutdownReentryTest.xml",
+    "bytes": 14419,
+    "sha256": "6b7fb5c5e042047c00a9ba98e1b4ea8171631de7562c2cc26af9c01817236851"
+  },
+  {
+    "path": "final-fixed-9-reports/io.netty.channel.nio.NioEventLoopTest.txt",
+    "bytes": 324,
+    "sha256": "9b382c3cbb364f6f95d0af4685c835b2717083188cb3760cbbff5479a4267e3b"
+  },
+  {
+    "path": "final-fixed-9-reports/io.netty.channel.nio.NioShutdownReentryTest.txt",
+    "bytes": 336,
+    "sha256": "c937f3701d998665823f2459c03b55e2bf7536d323b98a78345b1852726af7e6"
+  },
+  {
+    "path": "final-fixed-9.log",
+    "bytes": 2454,
+    "sha256": "1b8a8df95b2bfdb0e88bad769ce5d70d77bd3d5d354ede9cae2f29c0e24a5074"
+  },
+  {
+    "path": "final-fixed-results.json",
+    "bytes": 1124,
+    "sha256": "682468a238c121439818ae3876d10a303b97d6012e6fe61a4166b6ee5c75a58c"
+  },
+  {
+    "path": "fixed-1-reports/2026-10-15T12-44-45_888-jvmRun1.dumpstream",
+    "bytes": 7711,
+    "sha256": "fa418de8576bbab3e415464becd9418dae38dffca8a72784d8e8072c0474000a"
+  },
+  {
+    "path": "fixed-1-reports/TEST-io.netty.channel.nio.NioEventLoopTest.xml",
+    "bytes": 14208,
+    "sha256": "9952d3efe957d82503e8f9b800ad01fbffa4ffc96321cd14879c261e03c5cfd1"
+  },
+  {
+    "path": "fixed-1-reports/TEST-io.netty.channel.nio.NioShutdownReentryTest.xml",
+    "bytes": 14420,
+    "sha256": "99429960348a2bb484fdebc6b9a2260e06a850c8982bbdb0420e34de80af0c24"
+  },
+  {
+    "path": "fixed-1-reports/io.netty.channel.nio.NioEventLoopTest.txt",
+    "bytes": 324,
+    "sha256": "401154a7807b5f51b4d7d7b26801916e59779649410269dd1e77f2d751815669"
+  },
+  {
+    "path": "fixed-1-reports/io.netty.channel.nio.NioShutdownReentryTest.txt",
+    "bytes": 336,
+    "sha256": "d41e55f681100e9e4cee56bde532f67b4895630b69cb91338895e83b0743d67a"
+  },
+  {
+    "path": "fixed-1.log",
+    "bytes": 55276,
+    "sha256": "66513206d04e5b9495ac4f8bd14750e080726d9806301403024c9b169b316a69"
+  },
+  {
+    "path": "fixed-10-reports/2026-10-15T12-47-13_980-jvmRun1.dumpstream",
+    "bytes": 7712,
+    "sha256": "b54e78174713ea754802bb49e04bead09122f657753215c17cd64c95b481bec8"
+  },
+  {
+    "path": "fixed-10-reports/TEST-io.netty.channel.nio.NioEventLoopTest.xml",
+    "bytes": 14208,
+    "sha256": "e830286e9ee03288675d1688295962843ebdd97a87d31f77b4b53e52165523fb"
+  },
+  {
+    "path": "fixed-10-reports/TEST-io.netty.channel.nio.NioShutdownReentryTest.xml",
+    "bytes": 14422,
+    "sha256": "5ee090cce22ef4238057c3e3b3ec80c56c62b582eea22b011b3c6c0569013d95"
+  },
+  {
+    "path": "fixed-10-reports/io.netty.channel.nio.NioEventLoopTest.txt",
+    "bytes": 324,
+    "sha256": "c7542f84ee09ddc668b1a7d459a6d842730126880a80bf6c3763936a63d52673"
+  },
+  {
+    "path": "fixed-10-reports/io.netty.channel.nio.NioShutdownReentryTest.txt",
+    "bytes": 336,
+    "sha256": "0395dc5fbc61fd9bf9cabe37e0f6219c4c45547cf8003e5a456153dfd6c83d5b"
+  },
+  {
+    "path": "fixed-10.log",
+    "bytes": 2453,
+    "sha256": "9606753ed60d5d2d3a4cfd22d3fe7cc8eaa6ddeac9ab0a9564b51e0793ec47a4"
+  },
+  {
+    "path": "fixed-2-reports/2026-10-15T12-45-01_759-jvmRun1.dumpstream",
+    "bytes": 7713,
+    "sha256": "6d420b30dd867cfc7651c16c4cc0a6ab0edb8939519ce178d8b20e611f982aec"
+  },
+  {
+    "path": "fixed-2-reports/TEST-io.netty.channel.nio.NioEventLoopTest.xml",
+    "bytes": 14209,
+    "sha256": "b1ae13f864fae0cf4d8ec4b9cb1c9d729d006386e7f6f9de1f436d8be99df83d"
+  },
+  {
+    "path": "fixed-2-reports/TEST-io.netty.channel.nio.NioShutdownReentryTest.xml",
+    "bytes": 14422,
+    "sha256": "4956df2b1a18137756f8f23e0f35951cf59deb44a923ee58cae16abba9c8db9e"
+  },
+  {
+    "path": "fixed-2-reports/io.netty.channel.nio.NioEventLoopTest.txt",
+    "bytes": 324,
+    "sha256": "80773c2cb6cc3d82ef85f40e5bb11587d37589461608fb1696541f1091c81086"
+  },
+  {
+    "path": "fixed-2-reports/io.netty.channel.nio.NioShutdownReentryTest.txt",
+    "bytes": 336,
+    "sha256": "f44adad094c121fa1ccdf1593719b41ecd02bf9aa0b0f73b26e6311bbb6eb04d"
+  },
+  {
+    "path": "fixed-2.log",
+    "bytes": 2454,
+    "sha256": "9f83992e8f2a5590e2d311f8f356a30e12a55e372b3c8fde3e15bcef47188828"
+  },
+  {
+    "path": "fixed-3-reports/2026-10-15T12-45-27_992-jvmRun1.dumpstream",
+    "bytes": 7713,
+    "sha256": "6566b4040c2fdcc8014726f02464e3346db06360e0834c501feb5c8ff5496e37"
+  },
+  {
+    "path": "fixed-3-reports/TEST-io.netty.channel.nio.NioEventLoopTest.xml",
+    "bytes": 14209,
+    "sha256": "8c060c0fe0ad36e2ef1cbed907aea772beb6f1081a1f7ff32006e142e24733a2"
+  },
+  {
+    "path": "fixed-3-reports/TEST-io.netty.channel.nio.NioShutdownReentryTest.xml",
+    "bytes": 14421,
+    "sha256": "a9165e34bee9312c1a9662d456be687b74dad5e05fc945f4faca2ab2f3c7b813"
+  },
+  {
+    "path": "fixed-3-reports/io.netty.channel.nio.NioEventLoopTest.txt",
+    "bytes": 324,
+    "sha256": "db50ebb6b3ef88aa6bfa08993d91529e44444d9d0f02e316dfea910fe93bd64a"
+  },
+  {
+    "path": "fixed-3-reports/io.netty.channel.nio.NioShutdownReentryTest.txt",
+    "bytes": 336,
+    "sha256": "4e57c115c417a1f245b8fdcb75f55d22f8af9ea8fd19054757f9db6c4bd3959e"
+  },
+  {
+    "path": "fixed-3.log",
+    "bytes": 2454,
+    "sha256": "d45a6652cc07e5566d27258fd73766999ecf8a39d30c53ead2e927ec07c7b80c"
+  },
+  {
+    "path": "fixed-4-reports/2026-10-15T12-45-48_552-jvmRun1.dumpstream",
+    "bytes": 7714,
+    "sha256": "78a9523cff7d934b044291ceafc1cb63a9310c3afa6ed352dda2728979ce8046"
+  },
+  {
+    "path": "fixed-4-reports/TEST-io.netty.channel.nio.NioEventLoopTest.xml",
+    "bytes": 14209,
+    "sha256": "4c04971a6417cc1f8dbdc69ed917b12df5c8e913da270d275dab45d1f12f9fc9"
+  },
+  {
+    "path": "fixed-4-reports/TEST-io.netty.channel.nio.NioShutdownReentryTest.xml",
+    "bytes": 14422,
+    "sha256": "98740767b905fc5ec1715f2e153b14adb114b522660e4ca76bf5f7d5a51147eb"
+  },
+  {
+    "path": "fixed-4-reports/io.netty.channel.nio.NioEventLoopTest.txt",
+    "bytes": 324,
+    "sha256": "54bcd8c79d268b3af9a4c93cf061a85f4efa05f901c0f8b46041e9f202089567"
+  },
+  {
+    "path": "fixed-4-reports/io.netty.channel.nio.NioShutdownReentryTest.txt",
+    "bytes": 336,
+    "sha256": "67ccf09746b3c126c6ec0616ee982581828c06b0ee2d36c00267166a450c6e87"
+  },
+  {
+    "path": "fixed-4.log",
+    "bytes": 2454,
+    "sha256": "8dc46d58f1c221e1912fb2d7f3fa613898b73327098755da8198bfd804a50ef0"
+  },
+  {
+    "path": "fixed-5-reports/2026-10-15T12-46-05_020-jvmRun1.dumpstream",
+    "bytes": 7713,
+    "sha256": "6f26ea6589ab34c29891f32ea470f18e9eda93d59af1357c9c4c7e4d2ad2e2c4"
+  },
+  {
+    "path": "fixed-5-reports/TEST-io.netty.channel.nio.NioEventLoopTest.xml",
+    "bytes": 14209,
+    "sha256": "c0963fe8cc70d8f7aa786659745b9e8f08a3175445d5be91c007457c2f17e95c"
+  },
+  {
+    "path": "fixed-5-reports/TEST-io.netty.channel.nio.NioShutdownReentryTest.xml",
+    "bytes": 14422,
+    "sha256": "d22185cca7e0320dc2c0440f616a761f618cd7ad84357917c6e781fed9a92f10"
+  },
+  {
+    "path": "fixed-5-reports/io.netty.channel.nio.NioEventLoopTest.txt",
+    "bytes": 324,
+    "sha256": "d486495f141d1f98531ea13e874202874d5cf76c848260d4685f61d9af10f70c"
+  },
+  {
+    "path": "fixed-5-reports/io.netty.channel.nio.NioShutdownReentryTest.txt",
+    "bytes": 336,
+    "sha256": "b473102e087487711842b18110104f28ab665f20008fdbd8c570aaa1f3769c91"
+  },
+  {
+    "path": "fixed-5.log",
+    "bytes": 2454,
+    "sha256": "97f14a1328fe5343a2b0e7320a4ae7dc9da074e0007ad4b41705dfbe1e896090"
+  },
+  {
+    "path": "fixed-6-reports/2026-10-15T12-46-26_464-jvmRun1.dumpstream",
+    "bytes": 7713,
+    "sha256": "598ca3bfdacbacb679b799e8cb05407b93623cd3f266984fecdd275fb8c375d8"
+  },
+  {
+    "path": "fixed-6-reports/TEST-io.netty.channel.nio.NioEventLoopTest.xml",
+    "bytes": 14209,
+    "sha256": "dbb8f77dfe876470b0add9d21b1541380244a68c2283b48053f17d0864d4a4ec"
+  },
+  {
+    "path": "fixed-6-reports/TEST-io.netty.channel.nio.NioShutdownReentryTest.xml",
+    "bytes": 14422,
+    "sha256": "672dc088fc649a43af6effe0724a558eb82e3a032747619bcab9b97f3fdd74cc"
+  },
+  {
+    "path": "fixed-6-reports/io.netty.channel.nio.NioEventLoopTest.txt",
+    "bytes": 324,
+    "sha256": "d29d8342167a1250350d772335c330bfd62a06a1f0512587678656ad0e29cec9"
+  },
+  {
+    "path": "fixed-6-reports/io.netty.channel.nio.NioShutdownReentryTest.txt",
+    "bytes": 336,
+    "sha256": "c42832ccbc190f4fd5680489d6da08f1af13a92db760c34dc7e0a712fb0c706a"
+  },
+  {
+    "path": "fixed-6.log",
+    "bytes": 2454,
+    "sha256": "ef7257e54118d95950e09021a3ba7ad47e02ad7c51d93c205f0a08927ea3e622"
+  },
+  {
+    "path": "fixed-7-reports/2026-10-15T12-46-41_419-jvmRun1.dumpstream",
+    "bytes": 7712,
+    "sha256": "4616ec1f3e81e991ad5f44922039891693347fbf4960898bf6f28c643c1d093b"
+  },
+  {
+    "path": "fixed-7-reports/TEST-io.netty.channel.nio.NioEventLoopTest.xml",
+    "bytes": 14209,
+    "sha256": "b44dc68df9cb980b3616e13e76147c9c35a2d8a5761a1d9e0319c565448f0263"
+  },
+  {
+    "path": "fixed-7-reports/TEST-io.netty.channel.nio.NioShutdownReentryTest.xml",
+    "bytes": 14422,
+    "sha256": "4518aaff2cb831e63f3bfaa4d6585812e327a36fae8b08ba0ef5f8d9ffb62dbb"
+  },
+  {
+    "path": "fixed-7-reports/io.netty.channel.nio.NioEventLoopTest.txt",
+    "bytes": 324,
+    "sha256": "064406074be3c7e8c4da2366d6ed839ea1f71d058879cc11b607f66e4cc3abac"
+  },
+  {
+    "path": "fixed-7-reports/io.netty.channel.nio.NioShutdownReentryTest.txt",
+    "bytes": 336,
+    "sha256": "72e0237e17f641840d54c99473c380b7c0312df834b0d3520387f693ae6d5e0c"
+  },
+  {
+    "path": "fixed-7.log",
+    "bytes": 2453,
+    "sha256": "7b940eedba33b4b0fb80dc9b84e2137fc9e839190d15a727b1378e905744ed24"
+  },
+  {
+    "path": "fixed-8-reports/2026-10-15T12-46-52_702-jvmRun1.dumpstream",
+    "bytes": 7711,
+    "sha256": "25f6d1723a1d63aa917cf9e07b4c2d91fda2f976f6cb7070d55ca5d51839ec31"
+  },
+  {
+    "path": "fixed-8-reports/TEST-io.netty.channel.nio.NioEventLoopTest.xml",
+    "bytes": 14209,
+    "sha256": "ebc6945d991b418bd6ad113ce792992f57eb7f28ca709f6aace8d41e65fd6eec"
+  },
+  {
+    "path": "fixed-8-reports/TEST-io.netty.channel.nio.NioShutdownReentryTest.xml",
+    "bytes": 14421,
+    "sha256": "e3cdf8e4e191ab1f185c57d7da0aaef172122b131a6b94af159b0bc082eac689"
+  },
+  {
+    "path": "fixed-8-reports/io.netty.channel.nio.NioEventLoopTest.txt",
+    "bytes": 324,
+    "sha256": "90f97c53b392fa3af24a586c631892e9db4c5261255d1331ff74e19a945fdbef"
+  },
+  {
+    "path": "fixed-8-reports/io.netty.channel.nio.NioShutdownReentryTest.txt",
+    "bytes": 336,
+    "sha256": "b0ecd5bf3e3e5748acbfff62a83582beb3419cd0b4fe877da4b6cce8f18369f0"
+  },
+  {
+    "path": "fixed-8.log",
+    "bytes": 2453,
+    "sha256": "ccdc559b3f2249cf543f2f5cd5a99e428d73e0c6724de5e9f70e26e1b661aed7"
+  },
+  {
+    "path": "fixed-9-reports/2026-10-15T12-47-02_509-jvmRun1.dumpstream",
+    "bytes": 7711,
+    "sha256": "1ca07aec8447422ba8168f13bf8d9fef4a371d818bc58b5f00f101f154153dd0"
+  },
+  {
+    "path": "fixed-9-reports/TEST-io.netty.channel.nio.NioEventLoopTest.xml",
+    "bytes": 14209,
+    "sha256": "31de86b9bcb18eb0de5c7d88f040098069b5b9a86c5146ff24ba83efad2adadf"
+  },
+  {
+    "path": "fixed-9-reports/TEST-io.netty.channel.nio.NioShutdownReentryTest.xml",
+    "bytes": 14421,
+    "sha256": "83259057a93dc70e27da986a20dfea11743ed7c39146a64ad3b764871cea0787"
+  },
+  {
+    "path": "fixed-9-reports/io.netty.channel.nio.NioEventLoopTest.txt",
+    "bytes": 324,
+    "sha256": "5c92b45eb227ef07cff67e161ecd6ef7d33d9cd387f84714a5adb96bbf25df2a"
+  },
+  {
+    "path": "fixed-9-reports/io.netty.channel.nio.NioShutdownReentryTest.txt",
+    "bytes": 336,
+    "sha256": "a4f71978c014c1d57add6f5e01bbe6aff270fb9ae7abf102d323ae061fa85bf1"
+  },
+  {
+    "path": "fixed-9.log",
+    "bytes": 2453,
+    "sha256": "0121465283e9b717faea217d9e5709686d715cc2e5ed166c8919e3145430515a"
+  },
+  {
+    "path": "fixed-results.json",
+    "bytes": 1124,
+    "sha256": "a5ddf83a5e98c1e727e38ec0f8cf8833fd9fc5a17dc500b57e63970b79a516a2"
+  },
+  {
+    "path": "full-transport-reports/2026-10-15T12-54-13_264-jvmRun1.dumpstream",
+    "bytes": 48192,
+    "sha256": "665c19477144af42dce93a889772aef020172f7a5a4ef2d02a01df1471160af1"
+  },
+  {
+    "path": "full-transport-reports/TEST-io.netty.bootstrap.BootstrapTest.xml",
+    "bytes": 24829,
+    "sha256": "e842de4932f3185d3a5d4a4106455a7d4249fbdc07a6f0b19a12c016bfc4709f"
+  },
+  {
+    "path": "full-transport-reports/TEST-io.netty.bootstrap.ServerBootstrapTest.xml",
+    "bytes": 23535,
+    "sha256": "e7d96f3ab7797143801100c0fab1fd3a15e2247cbbf789d57adcafed3f9ed612"
+  },
+  {
+    "path": "full-transport-reports/TEST-io.netty.channel.AdaptiveRecvByteBufAllocatorTest.xml",
+    "bytes": 14902,
+    "sha256": "97d9a21b2d6b95257599fdcdea4ba801d34e19a8756b17e86dc128ea2d95f7a1"
+  },
+  {
+    "path": "full-transport-reports/TEST-io.netty.channel.ChannelInitializerTest.xml",
+    "bytes": 32039,
+    "sha256": "bb4d9f96a8cac026588f5903566ec349909c43a001ec60af9bc85a849a84a1c2"
+  },
+  {
+    "path": "full-transport-reports/TEST-io.netty.channel.ChannelOptionTest.xml",
+    "bytes": 14021,
+    "sha256": "e0a40b2c1a19ea163a37f932ff29a3284041efb59959c80b65c374f17f299c4b"
+  },
+  {
+    "path": "full-transport-reports/TEST-io.netty.channel.ChannelOutboundBufferTest.xml",
+    "bytes": 15552,
+    "sha256": "d0e539734df1cedd139e5426a1f927dffd9a845819cb1393492ca6837005f28f"
+  },
+  {
+    "path": "full-transport-reports/TEST-io.netty.channel.CoalescingBufferQueueTest.xml",
+    "bytes": 17058,
+    "sha256": "037c9602bc5c5774d7f63f5f00c63f3f4b63c454b1a74469f2c13ceb49a02436"
+  },
+  {
+    "path": "full-transport-reports/TEST-io.netty.channel.CombinedChannelDuplexHandlerTest.xml",
+    "bytes": 15006,
+    "sha256": "81e9e3620e52c4af0882212bbda58162f076c02aca144981549b2f19068dd66e"
+  },
+  {
+    "path": "full-transport-reports/TEST-io.netty.channel.CompleteChannelFutureTest.xml",
+    "bytes": 14094,
+    "sha256": "3d69beb1e31c76cf6059c2d7b9e047c021009ce7d4961ea42d4a3678cf60acfc"
+  },
+  {
+    "path": "full-transport-reports/TEST-io.netty.channel.DefaultChannelIdTest.xml",
+    "bytes": 14362,
+    "sha256": "b38005e5f470efa06799911cb218b78c1bfd9f5b2eccf922bbfdf59c1700ab3e"
+  },
+  {
+    "path": "full-transport-reports/TEST-io.netty.channel.DefaultChannelPipelineTailTest.xml",
+    "bytes": 14666,
+    "sha256": "87f9524349f59bfbdc8cf1c31abf7dae0b8dbebb0d78bb24ef780900de173cde"
+  },
+  {
+    "path": "full-transport-reports/TEST-io.netty.channel.DefaultChannelPipelineTest.xml",
+    "bytes": 148515,
+    "sha256": "cec79b524c4ed549464ab0572de10ad0935315ab8c9f730a73c79d97d12f58b9"
+  },
+  {
+    "path": "full-transport-reports/TEST-io.netty.channel.DefaultChannelPromiseTest.xml",
+    "bytes": 14088,
+    "sha256": "cd183042da31d274af31a646b9316dd9679e19f4eb6839d9390413c02c08851d"
+  },
+  {
+    "path": "full-transport-reports/TEST-io.netty.channel.DefaultFileRegionTest.xml",
+    "bytes": 14059,
+    "sha256": "185114bb176f7350d7b0033e2ad674395b2c5951a23d5b4c263d002fe2dd994e"
+  },
+  {
+    "path": "full-transport-reports/TEST-io.netty.channel.DefaultMaxMessagesRecvByteBufAllocatorTest.xml",
+    "bytes": 14020,
+    "sha256": "e15fa100794a7c8d029c7e504a88f8ff3668bc2da16e29535b110917f89c8e38"
+  },
+  {
+    "path": "full-transport-reports/TEST-io.netty.channel.DelegatingChannelPromiseNotifierTest.xml",
+    "bytes": 13885,
+    "sha256": "8b0ed50f203304f6b7d0db6992d6ff0b0eedf93aa76c8a64d9c940b593903fc5"
+  },
+  {
+    "path": "full-transport-reports/TEST-io.netty.channel.FailedChannelFutureTest.xml",
+    "bytes": 13973,
+    "sha256": "fbda654ea92b815f14acb0cc0b8031a3746640746f4afcb257be7bdc6044bdf1"
+  },
+  {
+    "path": "full-transport-reports/TEST-io.netty.channel.IoEventLoopGroupTest.xml",
+    "bytes": 13991,
+    "sha256": "985e61caa4bdebadb0f41f54531ecdc19ccdeaa00c78324670d90761c83ec011"
+  },
+  {
+    "path": "full-transport-reports/TEST-io.netty.channel.ManualIoEventLoopTest.xml",
+    "bytes": 15657,
+    "sha256": "200f8705438898e0708087777d635ccec36e9a8f699b15aa18a09c131b9de319"
+  },
+  {
+    "path": "full-transport-reports/TEST-io.netty.channel.MultiThreadIoEventLoopGroupTest.xml",
+    "bytes": 14036,
+    "sha256": "9163681562be606809f962829690f0251dadb140bee13643945e604e7f15743b"
+  },
+  {
+    "path": "full-transport-reports/TEST-io.netty.channel.NativeImageHandlerMetadataTest.xml",
+    "bytes": 13875,
+    "sha256": "df9a474ae380779d1139f95be6591fa6a18ff6ebc202cd3bb01518bcb2780394"
+  },
+  {
+    "path": "full-transport-reports/TEST-io.netty.channel.PendingWriteQueueTest.xml",
+    "bytes": 34029,
+    "sha256": "075ede63015514089c5c94c5652745a8c95c7ee15e04f68dec695bfa2d392578"
+  },
+  {
+    "path": "full-transport-reports/TEST-io.netty.channel.ReentrantChannelTest.xml",
+    "bytes": 14373,
+    "sha256": "1026bf1ae9525df10a53b2e05d98beb042cf84fd6d53cb2ad781d061c13d79b4"
+  },
+  {
+    "path": "full-transport-reports/TEST-io.netty.channel.SimpleUserEventChannelHandlerTest.xml",
+    "bytes": 13983,
+    "sha256": "ae5c59e648ab10543cb4d19983ac0af441dfb9ef04c22f9356ed8fe8f57a7981"
+  },
+  {
+    "path": "full-transport-reports/TEST-io.netty.channel.SingleThreadEventLoopTest.xml",
+    "bytes": 15801,
+    "sha256": "c23f379f352bfed440c113ce37f905876b73719fe55188b82305bf0cd20ec2f3"
+  },
+  {
+    "path": "full-transport-reports/TEST-io.netty.channel.SingleThreadIoEventLoopTest.xml",
+    "bytes": 14395,
+    "sha256": "14084fe1d5e7b17b9844878f4603cdf97f814903df3ef6789bc17acffddfbbcd"
+  },
+  {
+    "path": "full-transport-reports/TEST-io.netty.channel.SucceededChannelFutureTest.xml",
+    "bytes": 13864,
+    "sha256": "365409c12709911bdce5461edcb564e87e5309b14a1ea1bd819e3102ef9994b9"
+  },
+  {
+    "path": "full-transport-reports/TEST-io.netty.channel.ThreadPerChannelEventLoopGroupTest.xml",
+    "bytes": 14222,
+    "sha256": "c13e5499f88f1a6fcd69afd6928f20b3f27377cb86c9347d50b98c334e0ef161"
+  },
+  {
+    "path": "full-transport-reports/TEST-io.netty.channel.embedded.EmbeddedChannelIdTest.xml",
+    "bytes": 13867,
+    "sha256": "4c6caed81e74b785d5dcf6377ff2f816bb05bb65b98e2556e7f0d86f3900c2d7"
+  },
+  {
+    "path": "full-transport-reports/TEST-io.netty.channel.embedded.EmbeddedChannelTest.xml",
+    "bytes": 17918,
+    "sha256": "416675b447009519fb2042a8619745ad330624d5cbfa26e5e2ca57a61dfbef44"
+  },
+  {
+    "path": "full-transport-reports/TEST-io.netty.channel.group.DefaultChannelGroupTest.xml",
+    "bytes": 13886,
+    "sha256": "e8fc91012c472bc3e5357419fea2823019b59eb41f547ee7f40741c5ada06207"
+  },
+  {
+    "path": "full-transport-reports/TEST-io.netty.channel.local.LocalChannelTest.xml",
+    "bytes": 24556,
+    "sha256": "5774848ef13862b88cee7536eaf7b3193e48a9ddd90b46641e2770cc3d1bd2f1"
+  },
+  {
+    "path": "full-transport-reports/TEST-io.netty.channel.local.LocalTransportThreadModelTest.xml",
+    "bytes": 14368,
+    "sha256": "5463ef5623944948a3ff61044886b358f77477b8d6b05fb62aec09a232a61854"
+  },
+  {
+    "path": "full-transport-reports/TEST-io.netty.channel.local.LocalTransportThreadModelTest2.xml",
+    "bytes": 13877,
+    "sha256": "d94f9f1269d5c0549a16c36d7f02e735d9e867a71312129f431f6889aa00274b"
+  },
+  {
+    "path": "full-transport-reports/TEST-io.netty.channel.local.LocalTransportThreadModelTest3.xml",
+    "bytes": 14527,
+    "sha256": "89f08af5833afeed5c30e180ad3944e26dc7ac7259d7c87502dd1de5f2a43590"
+  },
+  {
+    "path": "full-transport-reports/TEST-io.netty.channel.nio.NioEventLoopTest.xml",
+    "bytes": 16570,
+    "sha256": "53fed76599f85e207ad5e2db7639654c1232140e905090470e8e909dd0ed2503"
+  },
+  {
+    "path": "full-transport-reports/TEST-io.netty.channel.nio.NioIoHandlerEventCountTest.xml",
+    "bytes": 14149,
+    "sha256": "75a81d335ed7b5a986aca6f55ce53d71a46e3e53ed8e155462b129afdcdeec0b"
+  },
+  {
+    "path": "full-transport-reports/TEST-io.netty.channel.nio.NioIoHandlerTest.xml",
+    "bytes": 13867,
+    "sha256": "ca2bdb9bb293fcbd4247eb8e4b7d2f227bff4ec2aa14ca7aa741953baa8594b1"
+  },
+  {
+    "path": "full-transport-reports/TEST-io.netty.channel.nio.NioShutdownReentryTest.xml",
+    "bytes": 23896,
+    "sha256": "84c9d225dcc7d08f4ea1a35348904ddb0de42025d20daf3657216ba3b1249227"
+  },
+  {
+    "path": "full-transport-reports/TEST-io.netty.channel.nio.SelectedSelectionKeySetTest.xml",
+    "bytes": 14277,
+    "sha256": "193fa6e37e7fb0bfdc80c2ba9663b0a93bcb938ca13e5b03329f9357ae74a910"
+  },
+  {
+    "path": "full-transport-reports/TEST-io.netty.channel.oio.OioEventLoopTest.xml",
+    "bytes": 14493,
+    "sha256": "d114b43b67d9d42bfd79efba9914f5802d3db937d0622b8b52e127622de569af"
+  },
+  {
+    "path": "full-transport-reports/TEST-io.netty.channel.pool.FixedChannelPoolMapDeadlockTest.xml",
+    "bytes": 14004,
+    "sha256": "22e311cab01a4f49bbab176eca5aff01a914bc99ae1d1310326f0b41b81f9cf6"
+  },
+  {
+    "path": "full-transport-reports/TEST-io.netty.channel.pool.FixedChannelPoolTest.xml",
+    "bytes": 15887,
+    "sha256": "d5e11fd117b3821fb19157f95d57a7343e11e1c291ebe5a78230aad6ec4fb6ac"
+  },
+  {
+    "path": "full-transport-reports/TEST-io.netty.channel.pool.SimpleChannelPoolTest.xml",
+    "bytes": 15170,
+    "sha256": "86b3f1a6da29d6053145f1b9719e2d4f8a918d30bcc9085bdd74ad27fdbcc024"
+  },
+  {
+    "path": "full-transport-reports/TEST-io.netty.channel.socket.InternetProtocolFamilyTest.xml",
+    "bytes": 14012,
+    "sha256": "27c3ce9f130cb0f7c2adf8db378189215af63a01710368cf36ca8fd6ed27458a"
+  },
+  {
+    "path": "full-transport-reports/TEST-io.netty.channel.socket.nio.NioDatagramChannelTest.xml",
+    "bytes": 14227,
+    "sha256": "f5c40f21cf65bffc72949d8ce79f069b3d51e30c82798c3ea6b52bc9f194a4a8"
+  },
+  {
+    "path": "full-transport-reports/TEST-io.netty.channel.socket.nio.NioDomainSocketChannelTest.xml",
+    "bytes": 13876,
+    "sha256": "504cd5f303f1e36c62f45a01aa4416bf41e916662251c6ff7d42e17ba2934121"
+  },
+  {
+    "path": "full-transport-reports/TEST-io.netty.channel.socket.nio.NioServerDomainSocketChannelTest.xml",
+    "bytes": 14713,
+    "sha256": "8189c9946bbf9955ca99762e7564d2094a9f84e63b87c22214d4411dc2488715"
+  },
+  {
+    "path": "full-transport-reports/TEST-io.netty.channel.socket.nio.NioServerSocketChannelTest.xml",
+    "bytes": 14376,
+    "sha256": "d5aa051b33eef26f5d3de1e887abb0c1ff0e2e7706571a2ad51dea7f7e28e76e"
+  },
+  {
+    "path": "full-transport-reports/TEST-io.netty.channel.socket.nio.NioSocketChannelTest.xml",
+    "bytes": 14744,
+    "sha256": "a7207f4b7733333061ab9de20a77c212fb212dc4954b81aa02b981a045f77df0"
+  },
+  {
+    "path": "full-transport-reports/io.netty.bootstrap.BootstrapTest.txt",
+    "bytes": 315,
+    "sha256": "5aded68010879116d24ef5082abf871b706841e87633fe0fd5d8c53ecd811cf7"
+  },
+  {
+    "path": "full-transport-reports/io.netty.bootstrap.ServerBootstrapTest.txt",
+    "bytes": 326,
+    "sha256": "2a962bfe153b9bc521ac878cc663ea34deb170fd2eba84a7f2d891fcbfca583d"
+  },
+  {
+    "path": "full-transport-reports/io.netty.channel.AdaptiveRecvByteBufAllocatorTest.txt",
+    "bytes": 348,
+    "sha256": "0909c6c47224da4d80f4ff0a7487daeffda79045256f12b75e2db806278777ab"
+  },
+  {
+    "path": "full-transport-reports/io.netty.channel.ChannelInitializerTest.txt",
+    "bytes": 328,
+    "sha256": "dd6fb6db5b433ba42fc56c874e85d0f74f8e01cf8238c152fd0bfd7261c23a9b"
+  },
+  {
+    "path": "full-transport-reports/io.netty.channel.ChannelOptionTest.txt",
+    "bytes": 318,
+    "sha256": "40c82fbb6b68721c398ad74063b339ba219884f0b1083f2ce2911a8ead5dbc0e"
+  },
+  {
+    "path": "full-transport-reports/io.netty.channel.ChannelOutboundBufferTest.txt",
+    "bytes": 335,
+    "sha256": "3e33021cccb5c0dbcc0efb380ae8b3e59a7c87522a4d230390acc84c269c3732"
+  },
+  {
+    "path": "full-transport-reports/io.netty.channel.CoalescingBufferQueueTest.txt",
+    "bytes": 335,
+    "sha256": "e5acc223f4ce5e7ae9b1aec76209cbba1647cb11edfbc72b9ba8d14f543a57f3"
+  },
+  {
+    "path": "full-transport-reports/io.netty.channel.CombinedChannelDuplexHandlerTest.txt",
+    "bytes": 349,
+    "sha256": "3365496fe2786668a4d222c1309a1de01173c675aa7b4bf43034e16c8634d204"
+  },
+  {
+    "path": "full-transport-reports/io.netty.channel.CompleteChannelFutureTest.txt",
+    "bytes": 334,
+    "sha256": "96bb12f4d3d0aa8fc4b44a60310c8f8d474568925ec775ecd6494393122692b3"
+  },
+  {
+    "path": "full-transport-reports/io.netty.channel.DefaultChannelIdTest.txt",
+    "bytes": 324,
+    "sha256": "80a062254e0d40c2871682be55a5c1b255638251e8b28a6b48db322f1d1856c2"
+  },
+  {
+    "path": "full-transport-reports/io.netty.channel.DefaultChannelPipelineTailTest.txt",
+    "bytes": 344,
+    "sha256": "1589e20528294164e659fb9bcea053d54852921c96bdd8862d922db556ebdd86"
+  },
+  {
+    "path": "full-transport-reports/io.netty.channel.DefaultChannelPipelineTest.txt",
+    "bytes": 337,
+    "sha256": "dc0e57522e6628486fc51cdf0a79388bf2ee5033014c9809fb7549d9783d1513"
+  },
+  {
+    "path": "full-transport-reports/io.netty.channel.DefaultChannelPromiseTest.txt",
+    "bytes": 334,
+    "sha256": "7a1537a47278881897e642b626513ced976d483e12d7081b62d74f414eff9e08"
+  },
+  {
+    "path": "full-transport-reports/io.netty.channel.DefaultFileRegionTest.txt",
+    "bytes": 326,
+    "sha256": "08638b0c80174ddd50645f0119d907dd70823d57aab10f752f6f2a99caaa1c0c"
+  },
+  {
+    "path": "full-transport-reports/io.netty.channel.DefaultMaxMessagesRecvByteBufAllocatorTest.txt",
+    "bytes": 368,
+    "sha256": "516aba0c8b0c416bdc91e6b5824c604a30f353b913a65b6bc17ffac7e34f1fa4"
+  },
+  {
+    "path": "full-transport-reports/io.netty.channel.DelegatingChannelPromiseNotifierTest.txt",
+    "bytes": 356,
+    "sha256": "bb0da57b7b0d7a23e361c2bd0e824a967894b337c4518851dafbdbe52a9810ce"
+  },
+  {
+    "path": "full-transport-reports/io.netty.channel.FailedChannelFutureTest.txt",
+    "bytes": 330,
+    "sha256": "da6781312c273d9d0a5c1c2fd92d197d56adfbc0723def77eb62676517a93b7d"
+  },
+  {
+    "path": "full-transport-reports/io.netty.channel.IoEventLoopGroupTest.txt",
+    "bytes": 324,
+    "sha256": "47c9e125d7bebd3ab968d3c65043bb82592ebfd7aca7692b35be7f03f84752a3"
+  },
+  {
+    "path": "full-transport-reports/io.netty.channel.ManualIoEventLoopTest.txt",
+    "bytes": 327,
+    "sha256": "733ab04359835eaaf38818b2bece4f82e2bdbf61aa0d82268ef563e83ebd54eb"
+  },
+  {
+    "path": "full-transport-reports/io.netty.channel.MultiThreadIoEventLoopGroupTest.txt",
+    "bytes": 346,
+    "sha256": "ab3f65b81ed1d081039a4fb63ca43f265a9465895aa8936cf7ba3d7b440dc44a"
+  },
+  {
+    "path": "full-transport-reports/io.netty.channel.NativeImageHandlerMetadataTest.txt",
+    "bytes": 344,
+    "sha256": "57eaeb8079113344f9ba25f27aae3206c32883eb221a179596d8f7a1062a468e"
+  },
+  {
+    "path": "full-transport-reports/io.netty.channel.PendingWriteQueueTest.txt",
+    "bytes": 327,
+    "sha256": "b04d6249bdbf37130de8fe0b00d09e423fb57c708a3bba2f8f50fd9a820fefb9"
+  },
+  {
+    "path": "full-transport-reports/io.netty.channel.ReentrantChannelTest.txt",
+    "bytes": 324,
+    "sha256": "c27f4647e4260c86ecff0611e5c8398bf6f7e4da08562de6ee0c1eb4e10a83b6"
+  },
+  {
+    "path": "full-transport-reports/io.netty.channel.SimpleUserEventChannelHandlerTest.txt",
+    "bytes": 350,
+    "sha256": "486acd98966f7b0e6d53f29b873dbf971977de87df712bb8c8e3fc4477a90d5b"
+  },
+  {
+    "path": "full-transport-reports/io.netty.channel.SingleThreadEventLoopTest.txt",
+    "bytes": 335,
+    "sha256": "af10c9043321d4d5fc507e83ad51c3fa9c440b4ed9dfe2d127b21c1028bb421a"
+  },
+  {
+    "path": "full-transport-reports/io.netty.channel.SingleThreadIoEventLoopTest.txt",
+    "bytes": 338,
+    "sha256": "f88ee4a1db8257dc49f70de3406ccc85eb9c9fadffc55b4214d55d51d3a38333"
+  },
+  {
+    "path": "full-transport-reports/io.netty.channel.SucceededChannelFutureTest.txt",
+    "bytes": 336,
+    "sha256": "beeb642195fb53da056876d97808e106b19b0f92bdca49394b56f896459cea10"
+  },
+  {
+    "path": "full-transport-reports/io.netty.channel.ThreadPerChannelEventLoopGroupTest.txt",
+    "bytes": 348,
+    "sha256": "14f0f246debe8f7d8b17b19d6c3c311ba14cf25824f225d340a7a67fdb98c85c"
+  },
+  {
+    "path": "full-transport-reports/io.netty.channel.embedded.EmbeddedChannelIdTest.txt",
+    "bytes": 344,
+    "sha256": "2325edef3300da39df96f6d2c202f1ffa83ffe429ede3c70ccd1b00edfa501d7"
+  },
+  {
+    "path": "full-transport-reports/io.netty.channel.embedded.EmbeddedChannelTest.txt",
+    "bytes": 341,
+    "sha256": "0c4d9c93b176ec9e5cc13244b472325bf782385076ce778719d4b3b6dd82c839"
+  },
+  {
+    "path": "full-transport-reports/io.netty.channel.group.DefaultChannelGroupTest.txt",
+    "bytes": 342,
+    "sha256": "c19c52e2409be0f8b69ccdfcaecae3874d67cea6c867d922a1c0f7fa5b083f9f"
+  },
+  {
+    "path": "full-transport-reports/io.netty.channel.local.LocalChannelTest.txt",
+    "bytes": 329,
+    "sha256": "1dc98eb13890433ae9b56d5ee401921955d03e06e77261782b09b05f64fcfb87"
+  },
+  {
+    "path": "full-transport-reports/io.netty.channel.local.LocalTransportThreadModelTest.txt",
+    "bytes": 354,
+    "sha256": "98e3c6a40405f7075755ff829f78f2f2e593a1c231984dca57a9d3ebe5c03342"
+  },
+  {
+    "path": "full-transport-reports/io.netty.channel.local.LocalTransportThreadModelTest2.txt",
+    "bytes": 356,
+    "sha256": "0446f5c88f837cf434ce350c56988bc0e7baa192799fbd1db3d1d881a8cb7e9d"
+  },
+  {
+    "path": "full-transport-reports/io.netty.channel.local.LocalTransportThreadModelTest3.txt",
+    "bytes": 356,
+    "sha256": "615542c7fc9c93d87cd4aaedb705bf9469289766642aa2e6350adce7572e7c55"
+  },
+  {
+    "path": "full-transport-reports/io.netty.channel.nio.NioEventLoopTest.txt",
+    "bytes": 325,
+    "sha256": "d36970c6a645d56e085de7675114fd42dc662fea53d693e908c1e527b7314832"
+  },
+  {
+    "path": "full-transport-reports/io.netty.channel.nio.NioIoHandlerEventCountTest.txt",
+    "bytes": 344,
+    "sha256": "9b57937119cfb87695094e101e6eb8758453e0e2aceecb39beeb23921a21fd36"
+  },
+  {
+    "path": "full-transport-reports/io.netty.channel.nio.NioIoHandlerTest.txt",
+    "bytes": 324,
+    "sha256": "4d61ae351b07df8a753c4121ea78dc716c0365481d3ec8555ef16760ddc28f86"
+  },
+  {
+    "path": "full-transport-reports/io.netty.channel.nio.NioShutdownReentryTest.txt",
+    "bytes": 336,
+    "sha256": "be20f84666f23641db229edc17f7309d7c4e62dd11ce1e45ad712878775e1fe0"
+  },
+  {
+    "path": "full-transport-reports/io.netty.channel.nio.SelectedSelectionKeySetTest.txt",
+    "bytes": 346,
+    "sha256": "5b53cfc8abbf6112aa3f2def80efd3b43d8c5f8b14ca6f856fc34fdfb47dfa22"
+  },
+  {
+    "path": "full-transport-reports/io.netty.channel.oio.OioEventLoopTest.txt",
+    "bytes": 324,
+    "sha256": "8dfd57d04d7fb7630a96d6bf9ae246582429d231196f0702405af59445e8318b"
+  },
+  {
+    "path": "full-transport-reports/io.netty.channel.pool.FixedChannelPoolMapDeadlockTest.txt",
+    "bytes": 356,
+    "sha256": "b80594daac80ac652872c6c8d069f98f12b5a88c9f79522987e1236df34635a3"
+  },
+  {
+    "path": "full-transport-reports/io.netty.channel.pool.FixedChannelPoolTest.txt",
+    "bytes": 335,
+    "sha256": "8ce208e14626a3abf92d9a1ce183e5d563338847d350c28c6f8955e8675e74e4"
+  },
+  {
+    "path": "full-transport-reports/io.netty.channel.pool.SimpleChannelPoolTest.txt",
+    "bytes": 337,
+    "sha256": "403789092d9206f8b7de30bcee92c9199928a4660d71be280ac024fccffbe802"
+  },
+  {
+    "path": "full-transport-reports/io.netty.channel.socket.InternetProtocolFamilyTest.txt",
+    "bytes": 350,
+    "sha256": "8e1719e764c527d42f511b411b5ef27099103e95bfd0ddfd2b797348c2a5fd10"
+  },
+  {
+    "path": "full-transport-reports/io.netty.channel.socket.nio.NioDatagramChannelTest.txt",
+    "bytes": 350,
+    "sha256": "dac5771ea79b62c269a381db8ac7827b2a7e501020ebe4f6588f2da75b76abeb"
+  },
+  {
+    "path": "full-transport-reports/io.netty.channel.socket.nio.NioDomainSocketChannelTest.txt",
+    "bytes": 358,
+    "sha256": "f0d4f51d93d3aefd2f07e8ff63098f941d941962a6d60c7d6ac5b2134a784a52"
+  },
+  {
+    "path": "full-transport-reports/io.netty.channel.socket.nio.NioServerDomainSocketChannelTest.txt",
+    "bytes": 370,
+    "sha256": "3de887a69913d865cf29578357f36781b06bc9c8173e7820b3cd54b327210161"
+  },
+  {
+    "path": "full-transport-reports/io.netty.channel.socket.nio.NioServerSocketChannelTest.txt",
+    "bytes": 358,
+    "sha256": "61408665277c686e949f9bca897c21c7a846300e3e63668a7a2449a82a6b1d6e"
+  },
+  {
+    "path": "full-transport-reports/io.netty.channel.socket.nio.NioSocketChannelTest.txt",
+    "bytes": 346,
+    "sha256": "0a86d3535e4af67e28c6dfd625ede0dc26b1cf420af5c9f3a3d122f02dea704c"
+  },
+  {
+    "path": "full-transport-results.json",
+    "bytes": 8155,
+    "sha256": "cb86e9266c4b4e0fd414d1a515e5f5d21ec558004e989e5ffece58c20c70f513"
+  },
+  {
+    "path": "full-transport.log",
+    "bytes": 261578,
+    "sha256": "1633b189949f3546d912105304c9caad4b5a8b08132ef3bdb0d25e5bb73f3ab7"
+  },
+  {
+    "path": "install.log",
+    "bytes": 703030,
+    "sha256": "10b84c0c6fa61996b520812a897656fa199bdde2dcd0e515fe8763b2c1be1c91"
+  },
+  {
+    "path": "pr-body.md",
+    "bytes": 4214,
+    "sha256": "ce3634c128841e561dd72f4550b324fa2cbce981b2df867dc49f57a45d86729b"
+  },
+  {
+    "path": "review.md",
+    "bytes": 4567,
+    "sha256": "779c244f5981d0dc0864683f4016f9e592be12c5616fe49c5b2fde709c198a6c"
+  },
+  {
+    "path": "run-module.py",
+    "bytes": 1781,
+    "sha256": "b0c233224e35c55d8d6fb9041eb817625a8147a94507c23277a0dcb64ad35e58"
+  },
+  {
+    "path": "run-targeted.py",
+    "bytes": 1768,
+    "sha256": "1cf090f4d0a5ce9195a15ff6919d5684e3fffa888dddd31b0d9a542552cf6307"
+  }
+]

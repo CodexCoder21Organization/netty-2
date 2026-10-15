@@ -1,0 +1,28 @@
+-------------------------------------------------------------------------------
+Test set: io.netty.channel.nio.NioShutdownReentryTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 1.591 s <<< FAILURE! -- in io.netty.channel.nio.NioShutdownReentryTest
+io.netty.channel.nio.NioShutdownReentryTest.closeListenersRegisteringMoreChannelsCannotLeaveAcceptedChannelsOpen -- Time elapsed: 0.583 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: A channel accepted during shutdown must close before termination ==> expected: <false> but was: <true>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertFalse.failNotFalse(AssertFalse.java:63)
+	at org.junit.jupiter.api.AssertFalse.assertFalse(AssertFalse.java:36)
+	at org.junit.jupiter.api.Assertions.assertFalse(Assertions.java:239)
+	at io.netty.channel.nio.NioShutdownReentryTest.closeListenersRegisteringMoreChannelsCannotLeaveAcceptedChannelsOpen(NioShutdownReentryTest.java:64)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+io.netty.channel.nio.NioShutdownReentryTest.unregisterCallbacksRegisteringMoreChannelsCannotLeaveRegistrationsBehind -- Time elapsed: 0.042 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: Termination must drain callback-created channel deregistration ==> expected: <false> but was: <true>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertFalse.failNotFalse(AssertFalse.java:63)
+	at org.junit.jupiter.api.AssertFalse.assertFalse(AssertFalse.java:36)
+	at org.junit.jupiter.api.Assertions.assertFalse(Assertions.java:239)
+	at io.netty.channel.nio.NioShutdownReentryTest.unregisterCallbacksRegisteringMoreChannelsCannotLeaveRegistrationsBehind(NioShutdownReentryTest.java:111)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+

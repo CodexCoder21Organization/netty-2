@@ -1,0 +1,375 @@
+{
+  "totals": {
+    "tests": 427,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 9,
+    "head": "7a9caa8cfd38683230db50ae83c58f22002044ba",
+    "exit_code": 0,
+    "seconds": 147.69
+  },
+  "suites": [
+    {
+      "tests": 2,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "name": "io.netty.channel.FailedChannelFutureTest"
+    },
+    {
+      "tests": 4,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 4,
+      "name": "io.netty.channel.local.LocalTransportThreadModelTest3"
+    },
+    {
+      "tests": 1,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "name": "io.netty.channel.socket.nio.NioDomainSocketChannelTest"
+    },
+    {
+      "tests": 3,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "name": "io.netty.channel.ChannelOptionTest"
+    },
+    {
+      "tests": 1,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "name": "io.netty.channel.embedded.EmbeddedChannelIdTest"
+    },
+    {
+      "tests": 7,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "name": "io.netty.channel.DefaultChannelPipelineTailTest"
+    },
+    {
+      "tests": 7,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "name": "io.netty.channel.socket.nio.NioServerDomainSocketChannelTest"
+    },
+    {
+      "tests": 9,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "name": "io.netty.channel.AdaptiveRecvByteBufAllocatorTest"
+    },
+    {
+      "tests": 6,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "name": "io.netty.channel.ReentrantChannelTest"
+    },
+    {
+      "tests": 16,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "name": "io.netty.channel.CoalescingBufferQueueTest"
+    },
+    {
+      "tests": 2,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "name": "io.netty.channel.IoEventLoopGroupTest"
+    },
+    {
+      "tests": 15,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "name": "io.netty.channel.ChannelOutboundBufferTest"
+    },
+    {
+      "tests": 33,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "name": "io.netty.channel.local.LocalChannelTest"
+    },
+    {
+      "tests": 1,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "name": "io.netty.channel.NativeImageHandlerMetadataTest"
+    },
+    {
+      "tests": 1,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "name": "io.netty.channel.group.DefaultChannelGroupTest"
+    },
+    {
+      "tests": 3,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 2,
+      "name": "io.netty.channel.local.LocalTransportThreadModelTest"
+    },
+    {
+      "tests": 19,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "name": "io.netty.bootstrap.BootstrapTest"
+    },
+    {
+      "tests": 3,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "name": "io.netty.channel.DefaultFileRegionTest"
+    },
+    {
+      "tests": 12,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "name": "io.netty.channel.pool.SimpleChannelPoolTest"
+    },
+    {
+      "tests": 2,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "name": "io.netty.channel.SimpleUserEventChannelHandlerTest"
+    },
+    {
+      "tests": 6,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "name": "io.netty.channel.DefaultChannelIdTest"
+    },
+    {
+      "tests": 12,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "name": "io.netty.channel.PendingWriteQueueTest"
+    },
+    {
+      "tests": 4,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "name": "io.netty.channel.socket.nio.NioDatagramChannelTest"
+    },
+    {
+      "tests": 16,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "name": "io.netty.channel.nio.NioEventLoopTest"
+    },
+    {
+      "tests": 1,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "name": "io.netty.channel.DelegatingChannelPromiseNotifierTest"
+    },
+    {
+      "tests": 2,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "name": "io.netty.channel.pool.FixedChannelPoolMapDeadlockTest"
+    },
+    {
+      "tests": 2,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "name": "io.netty.channel.socket.InternetProtocolFamilyTest"
+    },
+    {
+      "tests": 9,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "name": "io.netty.channel.ChannelInitializerTest"
+    },
+    {
+      "tests": 3,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "name": "io.netty.channel.DefaultChannelPromiseTest"
+    },
+    {
+      "tests": 3,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "name": "io.netty.channel.oio.OioEventLoopTest"
+    },
+    {
+      "tests": 18,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "name": "io.netty.channel.SingleThreadEventLoopTest"
+    },
+    {
+      "tests": 2,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 2,
+      "name": "io.netty.channel.ThreadPerChannelEventLoopGroupTest"
+    },
+    {
+      "tests": 18,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "name": "io.netty.channel.pool.FixedChannelPoolTest"
+    },
+    {
+      "tests": 10,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "name": "io.netty.channel.CombinedChannelDuplexHandlerTest"
+    },
+    {
+      "tests": 3,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "name": "io.netty.channel.CompleteChannelFutureTest"
+    },
+    {
+      "tests": 2,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "name": "io.netty.channel.DefaultMaxMessagesRecvByteBufAllocatorTest"
+    },
+    {
+      "tests": 5,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "name": "io.netty.channel.nio.SelectedSelectionKeySetTest"
+    },
+    {
+      "tests": 1,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "name": "io.netty.channel.local.LocalTransportThreadModelTest2"
+    },
+    {
+      "tests": 5,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "name": "io.netty.channel.socket.nio.NioServerSocketChannelTest"
+    },
+    {
+      "tests": 1,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "name": "io.netty.channel.SucceededChannelFutureTest"
+    },
+    {
+      "tests": 8,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "name": "io.netty.channel.socket.nio.NioSocketChannelTest"
+    },
+    {
+      "tests": 3,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "name": "io.netty.channel.nio.NioIoHandlerEventCountTest"
+    },
+    {
+      "tests": 74,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "name": "io.netty.channel.DefaultChannelPipelineTest"
+    },
+    {
+      "tests": 17,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "name": "io.netty.channel.ManualIoEventLoopTest"
+    },
+    {
+      "tests": 1,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "name": "io.netty.channel.nio.NioIoHandlerTest"
+    },
+    {
+      "tests": 5,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "name": "io.netty.channel.nio.NioShutdownReentryTest"
+    },
+    {
+      "tests": 5,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 1,
+      "name": "io.netty.channel.SingleThreadIoEventLoopTest"
+    },
+    {
+      "tests": 36,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "name": "io.netty.channel.embedded.EmbeddedChannelTest"
+    },
+    {
+      "tests": 2,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "name": "io.netty.channel.MultiThreadIoEventLoopGroupTest"
+    },
+    {
+      "tests": 6,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "name": "io.netty.bootstrap.ServerBootstrapTest"
+    }
+  ],
+  "command": [
+    "./mvnw",
+    "-B",
+    "-Dmaven.repo.local=/tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/workspace/lane227/m2",
+    "-Dcheckstyle.skip",
+    "-Dforbiddenapis.skip",
+    "-Dxml.skip",
+    "-Dnohttp.skip",
+    "-pl",
+    "transport",
+    "test"
+  ]
+}

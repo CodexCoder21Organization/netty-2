@@ -1,0 +1,26 @@
+[
+  {
+    "tests": 3,
+    "failures": 2,
+    "errors": 0,
+    "skipped": 0,
+    "run": 1,
+    "exit_code": 1
+  },
+  {
+    "tests": 3,
+    "failures": 2,
+    "errors": 0,
+    "skipped": 0,
+    "run": 2,
+    "exit_code": 1
+  },
+  {
+    "tests": 3,
+    "failures": 2,
+    "errors": 0,
+    "skipped": 0,
+    "run": 3,
+    "exit_code": 1
+  }
+]

@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: io.netty.channel.local.LocalTransportThreadModelTest2
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.599 s -- in io.netty.channel.local.LocalTransportThreadModelTest2

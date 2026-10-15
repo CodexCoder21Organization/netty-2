@@ -1,0 +1,120 @@
+# Created at 2026-10-15T12:49:07.175
+Corrupted channel by directly writing to native stream in forked JVM 1. Stream '[0.001s][warning][gc] -XX:+PrintGCDetails is deprecated. Will use -Xlog:gc* instead.'.
+
+# Created at 2026-10-15T12:49:07.183
+Corrupted channel by directly writing to native stream in forked JVM 1. Stream '[0.017s][info   ][gc,init] CardTable entry size: 512'.
+
+# Created at 2026-10-15T12:49:07.183
+Corrupted channel by directly writing to native stream in forked JVM 1. Stream '[0.024s][info   ][gc     ] Using G1'.
+
+# Created at 2026-10-15T12:49:07.184
+Corrupted channel by directly writing to native stream in forked JVM 1. Stream '[0.035s][info   ][gc,init] Version: 21.0.12.1+1-LTS (release)'.
+
+# Created at 2026-10-15T12:49:07.184
+Corrupted channel by directly writing to native stream in forked JVM 1. Stream '[0.035s][info   ][gc,init] CPUs: 8 total, 8 available'.
+
+# Created at 2026-10-15T12:49:07.186
+Corrupted channel by directly writing to native stream in forked JVM 1. Stream '[0.035s][info   ][gc,init] Memory: 10240M'.
+
+# Created at 2026-10-15T12:49:07.190
+Corrupted channel by directly writing to native stream in forked JVM 1. Stream '[0.035s][info   ][gc,init] Large Page Support: Disabled'.
+
+# Created at 2026-10-15T12:49:07.191
+Corrupted channel by directly writing to native stream in forked JVM 1. Stream '[0.035s][info   ][gc,init] NUMA Support: Disabled'.
+
+# Created at 2026-10-15T12:49:07.194
+Corrupted channel by directly writing to native stream in forked JVM 1. Stream '[0.035s][info   ][gc,init] Compressed Oops: Enabled (32-bit)'.
+
+# Created at 2026-10-15T12:49:07.194
+Corrupted channel by directly writing to native stream in forked JVM 1. Stream '[0.035s][info   ][gc,init] Heap Region Size: 1M'.
+
+# Created at 2026-10-15T12:49:07.195
+Corrupted channel by directly writing to native stream in forked JVM 1. Stream '[0.035s][info   ][gc,init] Heap Min Capacity: 8M'.
+
+# Created at 2026-10-15T12:49:07.201
+Corrupted channel by directly writing to native stream in forked JVM 1. Stream '[0.035s][info   ][gc,init] Heap Initial Capacity: 160M'.
+
+# Created at 2026-10-15T12:49:07.202
+Corrupted channel by directly writing to native stream in forked JVM 1. Stream '[0.035s][info   ][gc,init] Heap Max Capacity: 2G'.
+
+# Created at 2026-10-15T12:49:07.202
+Corrupted channel by directly writing to native stream in forked JVM 1. Stream '[0.035s][info   ][gc,init] Pre-touch: Disabled'.
+
+# Created at 2026-10-15T12:49:07.206
+Corrupted channel by directly writing to native stream in forked JVM 1. Stream '[0.035s][info   ][gc,init] Parallel Workers: 8'.
+
+# Created at 2026-10-15T12:49:07.207
+Corrupted channel by directly writing to native stream in forked JVM 1. Stream '[0.035s][info   ][gc,init] Concurrent Workers: 2'.
+
+# Created at 2026-10-15T12:49:07.208
+Corrupted channel by directly writing to native stream in forked JVM 1. Stream '[0.035s][info   ][gc,init] Concurrent Refinement Workers: 8'.
+
+# Created at 2026-10-15T12:49:07.209
+Corrupted channel by directly writing to native stream in forked JVM 1. Stream '[0.035s][info   ][gc,init] Periodic GC: Disabled'.
+
+# Created at 2026-10-15T12:49:07.210
+Corrupted channel by directly writing to native stream in forked JVM 1. Stream '[0.050s][info   ][gc,metaspace] CDS archive(s) mapped at: [0x000077b9df000000-0x000077b9dfc9c000-0x000077b9dfc9c000), size 13221888, SharedBaseAddress: 0x000077b9df000000, ArchiveRelocationMode: 1.'.
+
+# Created at 2026-10-15T12:49:07.212
+Corrupted channel by directly writing to native stream in forked JVM 1. Stream '[0.050s][info   ][gc,metaspace] Compressed class space mapped at: 0x000077b9e0000000-0x000077ba20000000, reserved size: 1073741824'.
+
+# Created at 2026-10-15T12:49:07.214
+Corrupted channel by directly writing to native stream in forked JVM 1. Stream '[0.050s][info   ][gc,metaspace] Narrow klass base: 0x000077b9df000000, Narrow klass shift: 0, Narrow klass range: 0x100000000'.
+
+# Created at 2026-10-15T12:49:09.099
+Corrupted channel by directly writing to native stream in forked JVM 1. Stream '[1.984s][info   ][gc,start    ] GC(0) Pause Young (Normal) (G1 Evacuation Pause)'.
+
+# Created at 2026-10-15T12:49:09.105
+Corrupted channel by directly writing to native stream in forked JVM 1. Stream '[1.987s][info   ][gc,task     ] GC(0) Using 3 workers of 8 for evacuation'.
+
+# Created at 2026-10-15T12:49:09.121
+Corrupted channel by directly writing to native stream in forked JVM 1. Stream '[2.006s][info   ][gc,phases   ] GC(0)   Pre Evacuate Collection Set: 0.18ms'.
+
+# Created at 2026-10-15T12:49:09.122
+Corrupted channel by directly writing to native stream in forked JVM 1. Stream '[2.006s][info   ][gc,phases   ] GC(0)   Merge Heap Roots: 0.16ms'.
+
+# Created at 2026-10-15T12:49:09.122
+Corrupted channel by directly writing to native stream in forked JVM 1. Stream '[2.006s][info   ][gc,phases   ] GC(0)   Evacuate Collection Set: 17.53ms'.
+
+# Created at 2026-10-15T12:49:09.127
+Corrupted channel by directly writing to native stream in forked JVM 1. Stream '[2.006s][info   ][gc,phases   ] GC(0)   Post Evacuate Collection Set: 1.09ms'.
+
+# Created at 2026-10-15T12:49:09.128
+Corrupted channel by directly writing to native stream in forked JVM 1. Stream '[2.006s][info   ][gc,phases   ] GC(0)   Other: 2.89ms'.
+
+# Created at 2026-10-15T12:49:09.129
+Corrupted channel by directly writing to native stream in forked JVM 1. Stream '[2.006s][info   ][gc,heap     ] GC(0) Eden regions: 23->0(44)'.
+
+# Created at 2026-10-15T12:49:09.130
+Corrupted channel by directly writing to native stream in forked JVM 1. Stream '[2.006s][info   ][gc,heap     ] GC(0) Survivor regions: 0->3(3)'.
+
+# Created at 2026-10-15T12:49:09.131
+Corrupted channel by directly writing to native stream in forked JVM 1. Stream '[2.006s][info   ][gc,heap     ] GC(0) Old regions: 2->2'.
+
+# Created at 2026-10-15T12:49:09.131
+Corrupted channel by directly writing to native stream in forked JVM 1. Stream '[2.006s][info   ][gc,heap     ] GC(0) Humongous regions: 0->0'.
+
+# Created at 2026-10-15T12:49:09.132
+Corrupted channel by directly writing to native stream in forked JVM 1. Stream '[2.006s][info   ][gc,metaspace] GC(0) Metaspace: 6685K(6848K)->6685K(6848K) NonClass: 5833K(5888K)->5833K(5888K) Class: 851K(960K)->851K(960K)'.
+
+# Created at 2026-10-15T12:49:09.133
+Corrupted channel by directly writing to native stream in forked JVM 1. Stream '[2.006s][info   ][gc          ] GC(0) Pause Young (Normal) (G1 Evacuation Pause) 24M->4M(162M) 22.127ms'.
+
+# Created at 2026-10-15T12:49:09.134
+Corrupted channel by directly writing to native stream in forked JVM 1. Stream '[2.006s][info   ][gc,cpu      ] GC(0) User=0.01s Sys=0.01s Real=0.02s'.
+
+# Created at 2026-10-15T12:49:10.410
+Corrupted channel by directly writing to native stream in forked JVM 1. Stream '[3.297s][info   ][gc,heap,exit] Heap'.
+
+# Created at 2026-10-15T12:49:10.411
+Corrupted channel by directly writing to native stream in forked JVM 1. Stream '[3.297s][info   ][gc,heap,exit]  garbage-first heap   total 165888K, used 24482K [0x0000000080000000, 0x0000000100000000)'.
+
+# Created at 2026-10-15T12:49:10.412
+Corrupted channel by directly writing to native stream in forked JVM 1. Stream '[3.297s][info   ][gc,heap,exit]   region size 1024K, 23 young (23552K), 3 survivors (3072K)'.
+
+# Created at 2026-10-15T12:49:10.412
+Corrupted channel by directly writing to native stream in forked JVM 1. Stream '[3.297s][info   ][gc,heap,exit]  Metaspace       used 13991K, committed 14272K, reserved 1114112K'.
+
+# Created at 2026-10-15T12:49:10.414
+Corrupted channel by directly writing to native stream in forked JVM 1. Stream '[3.297s][info   ][gc,heap,exit]   class space    used 1850K, committed 1984K, reserved 1048576K'.
+
