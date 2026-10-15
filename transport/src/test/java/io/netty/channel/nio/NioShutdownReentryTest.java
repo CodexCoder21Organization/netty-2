@@ -28,10 +28,13 @@ import org.junit.jupiter.api.Test;
 import java.nio.channels.SocketChannel;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.concurrent.RejectedExecutionException;
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.atomic.AtomicReference;
 
+import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertFalse;
+import static org.junit.jupiter.api.Assertions.assertInstanceOf;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
 public class NioShutdownReentryTest {
@@ -60,6 +63,11 @@ public class NioShutdownReentryTest {
             assertTrue(registrations.get(0).isSuccess());
             for (ChannelFuture registration : registrations) {
                 assertTrue(registration.isDone());
+                if (!registration.isSuccess()) {
+                    assertInstanceOf(RejectedExecutionException.class, registration.cause());
+                    assertEquals("event loop is shutting down and no longer accepts IO registrations",
+                            registration.cause().getMessage());
+                }
                 Channel channel = registration.channel();
                 assertFalse(channel.isOpen(), "A channel accepted during shutdown must close before termination");
             }
@@ -107,6 +115,11 @@ public class NioShutdownReentryTest {
             assertTrue(registrations.get(0).isSuccess());
             for (ChannelFuture registration : registrations) {
                 assertTrue(registration.isDone());
+                if (!registration.isSuccess()) {
+                    assertInstanceOf(RejectedExecutionException.class, registration.cause());
+                    assertEquals("event loop is shutting down and no longer accepts IO registrations",
+                            registration.cause().getMessage());
+                }
                 Channel channel = registration.channel();
                 assertFalse(channel.isRegistered(), "Termination must drain callback-created channel deregistration");
                 assertFalse(channel.isOpen());
