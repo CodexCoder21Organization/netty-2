@@ -221,14 +221,22 @@ public class SingleThreadIoEventLoop extends SingleThreadEventLoop implements Io
                     taskQuantumNs = quantum;
                 }
             }
-            if (isShuttingDown()) {
-                ioHandler.prepareToDestroy();
-            }
             // Now run tasks for the computed amount of time before trying to run IO again.
             runAllTasks(taskQuantumNs);
 
             // We should continue with our loop until we either confirmed a shutdown or we can suspend it.
         } while (!confirmShutdown() && !canSuspend());
+    }
+
+    @Override
+    protected boolean confirmShutdown() {
+        if (!isShuttingDown()) {
+            return false;
+        }
+        // Shutdown can start in a task, after the IO phase. Prepare on every confirmation,
+        // including the executor's final task and shutdown-hook drains, before destroying IO.
+        ioHandler.prepareToDestroy();
+        return super.confirmShutdown();
     }
 
     protected final IoHandler ioHandler() {
