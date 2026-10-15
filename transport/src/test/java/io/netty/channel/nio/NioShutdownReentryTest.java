@@ -153,4 +153,50 @@ public class NioShutdownReentryTest {
             assertTrue(group.shutdownGracefully(0, 5, TimeUnit.SECONDS).await(10, TimeUnit.SECONDS));
         }
     }
+
+    @Test
+    @SuppressWarnings("deprecation")
+    public void immediateShutdownRejectsReentrantRegistration() throws Exception {
+        EventLoopGroup group = new MultiThreadIoEventLoopGroup(1, NioIoHandler.newFactory());
+        try (SocketChannel socket = SocketChannel.open()) {
+            Channel channel = new NioSocketChannel(socket);
+            EventLoop loop = group.next();
+            AtomicReference<ChannelFuture> registration = new AtomicReference<>();
+            loop.submit(() -> {
+                loop.shutdown();
+                registration.set(loop.register(channel));
+            }).get(5, TimeUnit.SECONDS);
+            assertTrue(group.terminationFuture().await(10, TimeUnit.SECONDS));
+            assertTrue(registration.get().isDone());
+            assertFalse(registration.get().isSuccess(), "An already shut down loop must reject IO registration");
+            assertInstanceOf(RejectedExecutionException.class, registration.get().cause());
+            assertEquals("event loop is shutting down and no longer accepts IO registrations",
+                    registration.get().cause().getMessage());
+            assertFalse(channel.isOpen());
+            assertFalse(channel.isRegistered());
+            assertTrue(channel.closeFuture().isDone());
+        } finally {
+            assertTrue(group.shutdownGracefully(0, 5, TimeUnit.SECONDS).await(10, TimeUnit.SECONDS));
+        }
+    }
+
+    @Test
+    public void registrationAfterTerminationIsRejectedAndClosed() throws Exception {
+        EventLoopGroup group = new MultiThreadIoEventLoopGroup(1, NioIoHandler.newFactory());
+        try (SocketChannel socket = SocketChannel.open()) {
+            Channel channel = new NioSocketChannel(socket);
+            EventLoop loop = group.next();
+            assertTrue(group.shutdownGracefully(0, 5, TimeUnit.SECONDS).await(10, TimeUnit.SECONDS));
+            ChannelFuture registration = loop.register(channel);
+            assertTrue(registration.isDone());
+            assertFalse(registration.isSuccess());
+            assertInstanceOf(RejectedExecutionException.class, registration.cause());
+            assertEquals("event executor terminated", registration.cause().getMessage());
+            assertFalse(channel.isOpen());
+            assertFalse(channel.isRegistered());
+            assertTrue(channel.closeFuture().isDone());
+        } finally {
+            assertTrue(group.shutdownGracefully(0, 5, TimeUnit.SECONDS).await(10, TimeUnit.SECONDS));
+        }
+    }
 }
