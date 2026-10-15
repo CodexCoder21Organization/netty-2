@@ -17,6 +17,7 @@ package io.netty.channel.nio;
 
 import io.netty.channel.AbstractEventLoopTest;
 import io.netty.channel.Channel;
+import io.netty.channel.ChannelFuture;
 import io.netty.channel.EventLoop;
 import io.netty.channel.EventLoopGroup;
 import io.netty.channel.IoEventLoop;
@@ -72,6 +73,65 @@ public class NioEventLoopTest extends AbstractEventLoopTest {
     @Override
     protected Class<? extends io.netty.channel.socket.SocketChannel> newSocketChannel() {
         return NioSocketChannel.class;
+    }
+
+    @Test
+    public void testShutdownFromTaskClosesRegisteredChannel() throws Exception {
+        EventLoopGroup group = new MultiThreadIoEventLoopGroup(1, NioIoHandler.newFactory());
+        try (SocketChannel socket = SocketChannel.open()) {
+            Channel channel = new NioSocketChannel(socket);
+            assertTrue(group.register(channel).await(5, TimeUnit.SECONDS));
+            assertTrue(channel.isRegistered());
+            channel.eventLoop().submit(() -> group.shutdownGracefully(0, 5, TimeUnit.SECONDS))
+                    .get(5, TimeUnit.SECONDS);
+            assertTrue(group.terminationFuture().await(10, TimeUnit.SECONDS));
+            assertFalse(channel.isOpen(), "Shutdown must close a channel registered before the task phase");
+            assertTrue(channel.closeFuture().isDone());
+            assertFalse(channel.isRegistered());
+        } finally {
+            assertTrue(group.shutdownGracefully(0, 5, TimeUnit.SECONDS).await(10, TimeUnit.SECONDS));
+        }
+    }
+
+    @Test
+    public void testShutdownFromCloseListenerClosesOtherChannel() throws Exception {
+        EventLoopGroup group = new MultiThreadIoEventLoopGroup(1, NioIoHandler.newFactory());
+        try (SocketChannel firstSocket = SocketChannel.open(); SocketChannel secondSocket = SocketChannel.open()) {
+            Channel first = new NioSocketChannel(firstSocket);
+            Channel second = new NioSocketChannel(secondSocket);
+            assertTrue(group.register(first).await(5, TimeUnit.SECONDS));
+            assertTrue(group.register(second).await(5, TimeUnit.SECONDS));
+            assertTrue(first.isRegistered() && second.isRegistered());
+            first.closeFuture().addListener(future -> group.shutdownGracefully(0, 5, TimeUnit.SECONDS));
+            first.close().get(5, TimeUnit.SECONDS);
+            assertTrue(group.terminationFuture().await(10, TimeUnit.SECONDS));
+            assertFalse(second.isOpen(), "Shutdown from a close callback must close the other registered channel");
+            assertTrue(second.closeFuture().isDone());
+            assertFalse(second.isRegistered());
+        } finally {
+            assertTrue(group.shutdownGracefully(0, 5, TimeUnit.SECONDS).await(10, TimeUnit.SECONDS));
+        }
+    }
+
+    @Test
+    public void testShutdownHookRegistrationClosesChannel() throws Exception {
+        EventLoopGroup group = new MultiThreadIoEventLoopGroup(1, NioIoHandler.newFactory());
+        try (SocketChannel socket = SocketChannel.open()) {
+            Channel channel = new NioSocketChannel(socket);
+            SingleThreadEventLoop loop = (SingleThreadEventLoop) group.next();
+            AtomicReference<ChannelFuture> registration = new AtomicReference<ChannelFuture>();
+            loop.submit(() -> {
+                loop.addShutdownHook(() -> registration.set(loop.register(channel)));
+                group.shutdownGracefully(0, 5, TimeUnit.SECONDS);
+            }).get(5, TimeUnit.SECONDS);
+            assertTrue(group.terminationFuture().await(10, TimeUnit.SECONDS));
+            assertTrue(registration.get() != null && registration.get().isSuccess());
+            assertFalse(channel.isOpen(), "Shutdown must also close a channel registered by a shutdown hook");
+            assertTrue(channel.closeFuture().isDone());
+            assertFalse(channel.isRegistered());
+        } finally {
+            assertTrue(group.shutdownGracefully(0, 5, TimeUnit.SECONDS).await(10, TimeUnit.SECONDS));
+        }
     }
 
     @Test
