@@ -52,3 +52,26 @@ OBSERVED: Full transport module exited 0 at exact final head 7a9caa8cfd38683230d
 OBSERVED: Immediately before the official branch push, REST reports https://github.com/CodexCoder21Organization/netty-2/pull/1 OPEN on the expected branch at d7b4547b64859311b9317a966cb995385399b8c5, base 4.2. The full-suite build followed fetch/rebase origin/4.2, which was a no-op. Working tree clean; no generated file is included in the source change. Main PR delta from its prior head is 18 additions / 1 deletion in production and a new 202-line, five-scenario test class. No existing test edit, new skip, raised timeout, reduced iteration or retry was introduced.
 OBSERVED review completion: Added final immediate-shutdown and post-termination cases to the separate review; both use real sockets/public APIs and complete cleanup. The first reproduces the isShutdown admission bypass on old code, the second proves already-correct caller rejection is preserved. No blocking scoped issue remains. Native module suites were not run; this lane's requested full transport module and public NIO scenarios are verified.
 Plan: context/fail-first DONE; fix/repeated proof/full module DONE; independent reviews DONE; official push/description evidence checkpoint IN PROGRESS; cleanup PENDING.
+
+## 2026-10-15 12:59 UTC — official branch and PR updated
+OBSERVED: Explicit lease push against d7b4547b64859311b9317a966cb995385399b8c5 succeeded, moving fix/lane132-shutdown-from-task-closes-channels to 7a9caa8cfd38683230db50ae83c58f22002044ba. REST PATCH updated https://github.com/CodexCoder21Organization/netty-2/pull/1 with why-first provenance, UrlProtocol 702/704 links, release PR and lane222 findings, the invariant, all validation counts, exact final head and the new-version/release requirement. Complete validation evidence was committed and pushed separately on evidence/lane227-netty-callback, preserving the source PR's two-file scope. No CI waiting/re-request, merge, enqueue, publish or deployment occurred.
+
+### Brief item disposition
+1. DONE: fresh clone/read, expected head confirmed, base-4.2 rebase no-op, original diff read, lane222 public reproducer ported and fails 3/3 for an open channel. Final stronger class independently retains that failure on old production.
+2. DONE: invariant/ownership table written before production edits; owner-layer terminal admission plus final preparation/drain correction. Reproducer passes 10/10 twice (second sequence includes all original regressions), original test file unchanged; full transport 427 discovered / 0 failures / 0 errors / 9 existing skips. Separate test and code review complete. Final module includes all five new cases, zero skips.
+3. DONE: same branch pushed with exact old-head lease and existing PR description updated through REST. Published coordinate is unchanged. Next version 4.2.10.2-codexcoder21; a NEW release PR against maint/4.2.10-codexcoder21 must port the correction and complete release validation before re-publication. No release PR was opened and nothing was published.
+4. IN PROGRESS: final owned-process check and checkout/cache deletion. All build/test commands have returned terminal results; no watcher was started.
+
+Artifacts:
+- Source: https://github.com/CodexCoder21Organization/netty-2/commit/7a9caa8cfd38683230db50ae83c58f22002044ba
+- Updated PR: https://github.com/CodexCoder21Organization/netty-2/pull/1
+- Validation/reviews: https://github.com/CodexCoder21Organization/netty-2/tree/evidence/lane227-netty-callback/investigation/lane227
+- First failing checkpoint: https://github.com/CodexCoder21Organization/netty-2/tree/evidence/lane227-fail-first
+- Final-tests/old-production checkpoint: https://github.com/CodexCoder21Organization/netty-2/tree/evidence/lane227-terminal-baseline
+- Local findings: /tmp/claude-1000/-code/bc9e914b-1f43-4800-9ffc-3e16c08ce74e/scratchpad/out/r227-findings.md
+
+Open questions for this lane: none. Supervisor owns CI/merge decisions and the separate release/publish step. Native module suites and consumer release validation belong to that release verification; no claim that published bytes contain this new correction is made.
+
+## 2026-10-15 12:59 UTC — cleanup complete / terminal verdict
+OBSERVED: `ps -eo pid,args -ww` with /proc cwd checks found ZERO owned background processes (runtime agent/tool ancestors excluded); every started build/test harness had already exited. No background watcher was started. Deleted all own lane entries ["evidence", "run-module.py", "m2", "netty-2", "run-targeted.py"]. Removed matching aibuild caches []. Remaining lane entries []. Shared Maven-wrapper caches outside this lane were left alone.
+Brief item 4 DONE. Plan: all four items DONE. Terminal verdict: DONE — existing PR updated with tested correction and invariant coverage; all logs/reviews/checkpoints pushed, checkout/cache removed. No open question or unpushed source change remains. No merge, enqueue, CI re-request/watch, release PR, publication, deployment, subagent, or Handoff write was performed.
